@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="DLG">
+  <struct id="4294967295">
+    <uint32 label="DelayEntry">0</uint32>
+    <uint32 label="DelayReply">0</uint32>
+    <uint32 label="NumWords">28</uint32>
+    <resref label="EndConversation"></resref>
+    <resref label="EndConverAbort"></resref>
+    <byte label="Skippable">1</byte>
+    <list label="StuntList"/>
+    <resref label="CameraModel"></resref>
+    <exostring label="VO_ID">door04</exostring>
+    <list label="EntryList">
+      <struct id="0">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="34707"/>
+        <resref label="VO_ResRef">nm37aadoor04001_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="1">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="34708"/>
+        <resref label="VO_ResRef">nm37aadoor04000_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">0</byte>
+      </struct>
+    </list>
+    <list label="ReplyList"/>
+    <list label="StartingList">
+      <struct id="0">
+        <uint32 label="Index">1</uint32>
+        <resref label="Active">k_pkor_door1</resref>
+      </struct>
+      <struct id="1">
+        <uint32 label="Index">0</uint32>
+        <resref label="Active">k_pkor_door2</resref>
+      </struct>
+    </list>
+  </struct>
+</gff3>

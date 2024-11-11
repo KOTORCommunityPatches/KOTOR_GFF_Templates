@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="DLG">
+  <struct id="4294967295">
+    <uint32 label="DelayEntry">0</uint32>
+    <uint32 label="DelayReply">0</uint32>
+    <uint32 label="NumWords">53</uint32>
+    <resref label="EndConversation"></resref>
+    <resref label="EndConverAbort"></resref>
+    <byte label="Skippable">0</byte>
+    <list label="StuntList">
+      <struct id="0">
+        <exostring label="Participant">RepOff1</exostring>
+        <resref label="StuntModel">m01aa_c05_char01</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">RepOff2</exostring>
+        <resref label="StuntModel">m01aa_c05_char04</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">RepOff3</exostring>
+        <resref label="StuntModel">m01aa_c05_char06</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">Dodonna</exostring>
+        <resref label="StuntModel">m01aa_c05_char02</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">JediCounF</exostring>
+        <resref label="StuntModel">m01aa_c05_char03</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">RepOff4</exostring>
+        <resref label="StuntModel">m01aa_c05_char05</resref>
+      </struct>
+      <struct id="0">
+        <exostring label="Participant">Vandar</exostring>
+        <resref label="StuntModel">m01aa_c05_char07</resref>
+      </struct>
+    </list>
+    <resref label="CameraModel">m01aa_c05_cam</resref>
+    <exostring label="VO_ID">c05001</exostring>
+    <sint32 label="ConversationType">0</sint32>
+    <byte label="ComputerType">0</byte>
+    <byte label="OldHitCheck">0</byte>
+    <resref label="AmbientTrack">56a</resref>
+    <byte label="UnequipItems">1</byte>
+    <byte label="AnimatedCut">1</byte>
+    <byte label="UnequipHItem">1</byte>
+    <list label="EntryList">
+      <struct id="0">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1200</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer01</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer02</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">0</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">9</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">38.549999</float>
+        <uint16 label="CameraAnimation">1200</uint16>
+        <byte label="FadeType">3</byte>
+        <float label="FadeLength">1.000000</float>
+        <float label="FadeDelay">0.000000</float>
+        <vector label="FadeColor">
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+        </vector>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">0</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <exostring label="Speaker">RepOff4</exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1201</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer01</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer02</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="35746"/>
+        <resref label="VO_ResRef">nm01aac05001000_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">0</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">1</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">66.199997</float>
+        <uint16 label="CameraAnimation">1201</uint16>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">1</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="2">
+        <exostring label="Speaker">Dodonna</exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1202</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer01</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer02</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="35747"/>
+        <resref label="VO_ResRef">nm01aac05001001_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">0</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">1</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">38.000000</float>
+        <uint16 label="CameraAnimation">1202</uint16>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">2</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="3">
+        <exostring label="Speaker">Dodonna</exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1203</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer01</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer02</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="35748"/>
+        <resref label="VO_ResRef">nm01aac05001002_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">0</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">1</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">55.410000</float>
+        <uint16 label="CameraAnimation">1203</uint16>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">3</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="4">
+        <exostring label="Speaker">Vandar</exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1204</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="35749"/>
+        <resref label="VO_ResRef">nm01aac05001003_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">0</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">1</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">24.270000</float>
+        <uint16 label="CameraAnimation">1204</uint16>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">4</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="5">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList">
+          <struct id="0">
+            <exostring label="Participant">Dodonna</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">Vandar</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff1</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff2</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff3</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepOff4</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">JediCounF</exostring>
+            <uint16 label="Animation">1205</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer01</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+          <struct id="0">
+            <exostring label="Participant">RepublicOfficer02</exostring>
+            <uint16 label="Animation">10121</uint16>
+          </struct>
+        </list>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script">k_calldonrobe</resref>
+        <uint32 label="Delay">5</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">1</uint32>
+        <uint32 label="CameraAngle">4</uint32>
+        <float label="CamFieldOfView">66.199997</float>
+        <uint16 label="CameraAnimation">1205</uint16>
+        <byte label="FadeType">4</byte>
+        <float label="FadeLength">1.000000</float>
+        <float label="FadeDelay">1.500000</float>
+        <vector label="FadeColor">
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+        </vector>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">5</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+    </list>
+    <list label="ReplyList">
+      <struct id="0">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">1</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">2</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="2">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">3</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="3">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">4</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="4">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">5</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="5">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script">k_pstu_modend</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList"/>
+      </struct>
+    </list>
+    <list label="StartingList">
+      <struct id="0">
+        <uint32 label="Index">0</uint32>
+        <resref label="Active"></resref>
+      </struct>
+    </list>
+  </struct>
+</gff3>

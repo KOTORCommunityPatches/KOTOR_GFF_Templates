@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="DLG">
+  <struct id="4294967295">
+    <uint32 label="DelayEntry">0</uint32>
+    <uint32 label="DelayReply">0</uint32>
+    <uint32 label="NumWords">953</uint32>
+    <resref label="EndConversation"></resref>
+    <resref label="EndConverAbort"></resref>
+    <byte label="Skippable">1</byte>
+    <list label="StuntList"/>
+    <resref label="CameraModel"></resref>
+    <exostring label="VO_ID">hurt03</exostring>
+    <sint32 label="ConversationType">0</sint32>
+    <byte label="ComputerType">0</byte>
+    <byte label="OldHitCheck">0</byte>
+    <resref label="AmbientTrack"></resref>
+    <byte label="UnequipItems">0</byte>
+    <byte label="AnimatedCut">0</byte>
+    <byte label="UnequipHItem">0</byte>
+    <list label="EntryList">
+      <struct id="0">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12717"/>
+        <resref label="VO_ResRef">nm25aahurt03054_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">yelled from a distance.</exostring>
+        <resref label="Sound">n_gwook_angm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="1">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12718"/>
+        <resref label="VO_ResRef">nm25aahurt03053_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">yelled from a distance.</exostring>
+        <resref label="Sound">n_gwook_grts1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="2">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12719"/>
+        <resref label="VO_ResRef">nm25aahurt03052_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">Secondary selected.</exostring>
+        <resref label="Sound">n_gwook_coms2</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">16</uint32>
+            <resref label="Active">k_pkas_heal_y</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">2</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">1</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="3">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12720"/>
+        <resref label="VO_ResRef">nm25aahurt03022_</resref>
+        <resref label="Script">k_act_talktrue</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">Initial, &#13;
+initiates when player approaches.&#13;
+&#13;
+&#13;
+This is a wounded wookie named &quot;Grrrwahrr&quot;. He was attacked by Mandalorians.&#13;
+If the player does not help him, he dies when player leaves the area.&#13;
+If player helps him, he says what he knows and then waits for the player to return.&#13;
+&#13;
+If he dies, he has a scrawled note.&#13;
+See e-mail</exostring>
+        <resref label="Sound">n_gwook_scrm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">0</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="4">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12721"/>
+        <resref label="VO_ResRef">nm25aahurt03023_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_grts1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">2</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">1</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="5">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12722"/>
+        <resref label="VO_ResRef">nm25aahurt03025_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_sads</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">16</uint32>
+            <resref label="Active">k_pkas_heal_y</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">14</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">3</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="6">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12723"/>
+        <resref label="VO_ResRef">nm25aahurt03050_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">Wookie dies when player leaves the area.</exostring>
+        <resref label="Sound">n_gwook_angm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="7">
+        <exostring label="Speaker">Zaalbar</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12724"/>
+        <resref label="VO_ResRef">nm25aahurt03045_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwwook_sads</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">4</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="8">
+        <exostring label="Speaker">Zaalbar</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12725"/>
+        <resref label="VO_ResRef">nm25aahurt03049_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwwook_angs</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">5</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="9">
+        <exostring label="Speaker">Carth</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38504"/>
+        <resref label="VO_ResRef">nm25aahurt03074_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">nm17aa03sh01160_</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">8</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="10">
+        <exostring label="Speaker">Bastila</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38486"/>
+        <resref label="VO_ResRef">nm25aahurt03073_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">nglobebast06899_</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">9</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="11">
+        <exostring label="Speaker">Juhani</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38493"/>
+        <resref label="VO_ResRef">nm25aahurt03072_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">10</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="12">
+        <exostring label="Speaker">Mission</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38524"/>
+        <resref label="VO_ResRef">nm25aahurt03071_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">nglobemiss13304_</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">11</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="13">
+        <exostring label="Speaker">Jolee</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38500"/>
+        <resref label="VO_ResRef">nm25aahurt03070_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">nglobejole09762_</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">12</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="14">
+        <exostring label="Speaker">HK47</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38518"/>
+        <resref label="VO_ResRef">nm25aahurt03069_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">13</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="15">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12726"/>
+        <resref label="VO_ResRef">nm25aahurt03043_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">waits, dies if player leaves area.</exostring>
+        <resref label="Sound">n_gwwook_grts1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="16">
+        <exostring label="Speaker">Zaalbar</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12727"/>
+        <resref label="VO_ResRef">nm25aahurt03042_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwwook_grts1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">15</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="17">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12728"/>
+        <resref label="VO_ResRef">nm25aahurt03027_</resref>
+        <resref label="Script">k_act_lightmed</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_comm1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">17</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="18">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12729"/>
+        <resref label="VO_ResRef">nm25aahurt03028_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_comm2</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">21</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">18</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="19">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12730"/>
+        <resref label="VO_ResRef">nm25aahurt03039_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">9</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_angm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">19</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="20">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12731"/>
+        <resref label="VO_ResRef">nm25aahurt03040_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_angs</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">20</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="21">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12734"/>
+        <resref label="VO_ResRef">nm25aahurt03030_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">22</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="22">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12732"/>
+        <resref label="VO_ResRef">nm25aahurt03036_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">9</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_quem</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">23</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="23">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12735"/>
+        <resref label="VO_ResRef">nm25aahurt03031_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_comm2</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">24</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">18</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="24">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12736"/>
+        <resref label="VO_ResRef">nm25aahurt03033_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">leaves</exostring>
+        <resref label="Sound">n_gwook_comm1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">25</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="25">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12737"/>
+        <resref label="VO_ResRef">nm25aahurt03034_</resref>
+        <resref label="Script">k_pkas_onplot_y</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_coms1</resref>
+        <exostring label="Quest">kas25_mandalorians</exostring>
+        <uint32 label="QuestEntry">20</uint32>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">26</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="26">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="42045"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="27">
+        <exostring label="Speaker">Cand</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="39803"/>
+        <resref label="VO_ResRef">nm25aahurt03068_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">27</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="28">
+        <exostring label="Speaker">Cand</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="38512"/>
+        <resref label="VO_ResRef">nm25aahurt03067_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">nglobecand03477_</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">28</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="29">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12738"/>
+        <resref label="VO_ResRef">nm25aahurt03000_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_sadm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">32</uint32>
+            <resref label="Active">k_pkas_manddead</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">31</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">29</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="30">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12739"/>
+        <resref label="VO_ResRef">nm25aahurt03020_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_scrm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">30</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="31">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12740"/>
+        <resref label="VO_ResRef">nm25aahurt03021_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">waits.</exostring>
+        <resref label="Sound">n_gwook_scrs</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="32">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12741"/>
+        <resref label="VO_ResRef">nm25aahurt03018_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">waits.</exostring>
+        <resref label="Sound">n_gwook_scrs</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="33">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12742"/>
+        <resref label="VO_ResRef">nm25aahurt03002_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_comm2</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">33</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="34">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12743"/>
+        <resref label="VO_ResRef">nm25aahurt03003_</resref>
+        <resref label="Script">k_pkas_hurttake</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">Gives player thing. Leaves</exostring>
+        <resref label="Sound">n_gwook_coms1</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">45</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">36</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">34</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="35">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12744"/>
+        <resref label="VO_ResRef">nm25aahurt03016_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_sadm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">35</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="36">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12745"/>
+        <resref label="VO_ResRef">nm25aahurt03007_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">37</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="37">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12746"/>
+        <resref label="VO_ResRef">nm25aahurt03013_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">Give player an item of some sort. Whatever it is, it must be of wookiee design.&#13;
+Use the crystal amulet we were going to use for the aborted Jolee/uller plot.</exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">38</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="38">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12747"/>
+        <resref label="VO_ResRef">nm25aahurt03014_</resref>
+        <resref label="Script">k_pkas_hurtgive</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpys</resref>
+        <exostring label="Quest">kas25_mandalorians</exostring>
+        <uint32 label="QuestEntry">70</uint32>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">39</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="39">
+        <exostring label="Speaker">Zaalbar</exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12748"/>
+        <resref label="VO_ResRef">nm25aahurt03008_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwwook_hpys</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">40</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="40">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12749"/>
+        <resref label="VO_ResRef">nm25aahurt03010_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_quem</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">41</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="41">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12750"/>
+        <resref label="VO_ResRef">nm25aahurt03011_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_scrm</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">42</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="42">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12751"/>
+        <resref label="VO_ResRef">nm25aahurt03012_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">43</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="43">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12752"/>
+        <resref label="VO_ResRef">nm25aahurt03009_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_quem</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">44</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="44">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12753"/>
+        <resref label="VO_ResRef">nm25aahurt03005_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwook_hpym</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList">
+          <struct id="0">
+            <uint32 label="Index">46</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">3</byte>
+      </struct>
+      <struct id="45">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="25631"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound">n_gwwook_angs</resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">3</byte>
+      </struct>
+    </list>
+    <list label="ReplyList">
+      <struct id="0">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03034_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">4</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="1">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12754"/>
+        <resref label="VO_ResRef">_m25aahurt03051_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">5</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="2">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12755"/>
+        <resref label="VO_ResRef">_m25aahurt03024_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">5</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="3">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12756"/>
+        <resref label="VO_ResRef">_m25aahurt03044_</resref>
+        <resref label="Script">k_pkas_hurtevil</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">14</uint32>
+            <resref label="Active">k_con_hk47pm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">13</uint32>
+            <resref label="Active">k_con_joleepm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">12</uint32>
+            <resref label="Active">k_con_missionpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="3">
+            <uint32 label="Index">11</uint32>
+            <resref label="Active">k_con_juhanipm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="4">
+            <uint32 label="Index">10</uint32>
+            <resref label="Active">k_con_bastpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="5">
+            <uint32 label="Index">9</uint32>
+            <resref label="Active">k_con_carthpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="6">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="7">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="4">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12757"/>
+        <resref label="VO_ResRef">_m25aahurt03048_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">8</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="5">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03066_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="6">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12758"/>
+        <resref label="VO_ResRef">_m25aahurt03047_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">player has no means to heal.</exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">16</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="7">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12759"/>
+        <resref label="VO_ResRef">_m25aahurt03046_</resref>
+        <resref label="Script">k_pkas_healwook</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">player has some means to heal.</exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">17</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="8">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="9">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="10">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="11">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">11</uint32>
+            <resref label="Active">k_con_juhanipm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">10</uint32>
+            <resref label="Active">k_con_bastpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">9</uint32>
+            <resref label="Active">k_con_carthpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="3">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="4">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="12">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">12</uint32>
+            <resref label="Active">k_con_missionpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">11</uint32>
+            <resref label="Active">k_con_juhanipm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">10</uint32>
+            <resref label="Active">k_con_bastpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="3">
+            <uint32 label="Index">9</uint32>
+            <resref label="Active">k_con_carthpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="4">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="5">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="13">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">13</uint32>
+            <resref label="Active">k_con_joleepm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">12</uint32>
+            <resref label="Active">k_con_missionpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="2">
+            <uint32 label="Index">9</uint32>
+            <resref label="Active">k_con_carthpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="3">
+            <uint32 label="Index">11</uint32>
+            <resref label="Active">k_con_juhanipm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="4">
+            <uint32 label="Index">10</uint32>
+            <resref label="Active">k_con_bastpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="5">
+            <uint32 label="Index">7</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="6">
+            <uint32 label="Index">6</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Wookie dies when player leaves the area.</exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="14">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12760"/>
+        <resref label="VO_ResRef">_m25aahurt03041_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">player has no means to heal.</exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">16</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">15</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="15">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03058_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">15</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">waits, dies if player leaves area.</exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="16">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12761"/>
+        <resref label="VO_ResRef">_m25aahurt03026_</resref>
+        <resref label="Script">k_pkas_healwook</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">player has some means to heal.</exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">28</uint32>
+            <resref label="Active">k_con_canderpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">17</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="17">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03040_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">18</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="18">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12762"/>
+        <resref label="VO_ResRef">_m25aahurt03038_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">19</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="19">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03054_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">20</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="20">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script">k_pkas_hurtleave</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList"/>
+      </struct>
+      <struct id="21">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12764"/>
+        <resref label="VO_ResRef">_m25aahurt03029_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">21</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="22">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03044_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">27</uint32>
+            <resref label="Active">k_con_canderpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">22</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="23">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03050_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">23</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="24">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12765"/>
+        <resref label="VO_ResRef">_m25aahurt03032_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">24</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="25">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">25</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="26">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">26</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+      </struct>
+      <struct id="27">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">22</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="28">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">17</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+      </struct>
+      <struct id="29">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12766"/>
+        <resref label="VO_ResRef">_m25aahurt03019_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">30</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="30">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03031_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">31</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="31">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12767"/>
+        <resref label="VO_ResRef">_m25aahurt03017_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">32</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="32">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12768"/>
+        <resref label="VO_ResRef">_m25aahurt03001_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">33</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="33">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03003_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">34</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="34">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12769"/>
+        <resref label="VO_ResRef">_m25aahurt03015_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">35</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="35">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03026_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">39</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">37</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Give player an item of some sort. Whatever it is, it must be of wookiee design.&#13;
+Use the crystal amulet we were going to use for the aborted Jolee/uller plot.</exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="36">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12770"/>
+        <resref label="VO_ResRef">_m25aahurt03006_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">36</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="37">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03010_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">39</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">37</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="38">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03022_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">38</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="39">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef"></resref>
+        <resref label="Script">k_pkas_hurtleave</resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList"/>
+      </struct>
+      <struct id="40">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03012_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">43</uint32>
+            <resref label="Active">k_pkas_chuundead</resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">40</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="41">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03016_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">41</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="42">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03018_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">42</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="43">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03020_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">38</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="44">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03014_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">41</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="45">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="12771"/>
+        <resref label="VO_ResRef">_m25aahurt03004_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">44</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">0</byte>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+      <struct id="46">
+        <list label="AnimList"/>
+        <locstring label="Text" strref="4294967295"/>
+        <resref label="VO_ResRef">_m25aahurt03007_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="EntriesList">
+          <struct id="0">
+            <uint32 label="Index">39</uint32>
+            <resref label="Active">k_con_zaalpm</resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment"></exostring>
+          </struct>
+          <struct id="1">
+            <uint32 label="Index">37</uint32>
+            <resref label="Active"></resref>
+            <byte label="IsChild">1</byte>
+            <exostring label="LinkComment">Give player an item of some sort. Whatever it is, it must be of wookiee design.&#13;
+Use the crystal amulet we were going to use for the aborted Jolee/uller plot.</exostring>
+          </struct>
+        </list>
+        <byte label="SoundExists">0</byte>
+      </struct>
+    </list>
+    <list label="StartingList">
+      <struct id="0">
+        <uint32 label="Index">45</uint32>
+        <resref label="Active">k_pkas_grrrfight</resref>
+      </struct>
+      <struct id="1">
+        <uint32 label="Index">29</uint32>
+        <resref label="Active">k_pkas_hashealed</resref>
+      </struct>
+      <struct id="2">
+        <uint32 label="Index">3</uint32>
+        <resref label="Active">k_con_talkedto</resref>
+      </struct>
+      <struct id="3">
+        <uint32 label="Index">2</uint32>
+        <resref label="Active"></resref>
+      </struct>
+      <struct id="4">
+        <uint32 label="Index">1</uint32>
+        <resref label="Active"></resref>
+      </struct>
+      <struct id="5">
+        <uint32 label="Index">0</uint32>
+        <resref label="Active"></resref>
+      </struct>
+    </list>
+  </struct>
+</gff3>

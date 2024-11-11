@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="DLG">
+  <struct id="4294967295">
+    <uint32 label="DelayEntry">0</uint32>
+    <uint32 label="DelayReply">0</uint32>
+    <uint32 label="NumWords">22</uint32>
+    <resref label="EndConversation"></resref>
+    <resref label="EndConverAbort"></resref>
+    <byte label="Skippable">1</byte>
+    <list label="StuntList"/>
+    <resref label="CameraModel"></resref>
+    <exostring label="VO_ID">12am08</exostring>
+    <sint32 label="ConversationType">0</sint32>
+    <list label="EntryList">
+      <struct id="0">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="29766"/>
+        <resref label="VO_ResRef">nm18ab12am08002_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="1">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="29767"/>
+        <resref label="VO_ResRef">nm18ab12am08001_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment"></exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">1</byte>
+      </struct>
+      <struct id="2">
+        <exostring label="Speaker"></exostring>
+        <list label="AnimList"/>
+        <locstring label="Text" strref="29768"/>
+        <resref label="VO_ResRef">nm18ab12am08000_</resref>
+        <resref label="Script"></resref>
+        <uint32 label="Delay">4294967295</uint32>
+        <exostring label="Comment">This character is the recorded voice of a female in distress. &#13;
+It is a recording played to lure the player into an ambush.&#13;
+There is one additional line in Gurke&apos;s dialogue as well</exostring>
+        <resref label="Sound"></resref>
+        <exostring label="Quest"></exostring>
+        <sint32 label="PlotIndex">-1</sint32>
+        <float label="PlotXPPercentage">1.000000</float>
+        <exostring label="Listener"></exostring>
+        <uint32 label="WaitFlags">0</uint32>
+        <uint32 label="CameraAngle">0</uint32>
+        <byte label="FadeType">0</byte>
+        <list label="RepliesList"/>
+        <byte label="SoundExists">1</byte>
+      </struct>
+    </list>
+    <list label="ReplyList"/>
+    <list label="StartingList">
+      <struct id="0">
+        <uint32 label="Index">2</uint32>
+        <resref label="Active">k_ptat_random</resref>
+      </struct>
+      <struct id="1">
+        <uint32 label="Index">1</uint32>
+        <resref label="Active">k_ptat_random</resref>
+      </struct>
+      <struct id="2">
+        <uint32 label="Index">0</uint32>
+        <resref label="Active"></resref>
+      </struct>
+    </list>
+  </struct>
+</gff3>

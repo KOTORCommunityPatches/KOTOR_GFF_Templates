@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">29</sint32>
+      <sint32 label="AmbientSndNight">32</sint32>
+      <sint32 label="AmbientSndDayVol">127</sint32>
+      <sint32 label="AmbientSndNitVol">127</sint32>
+      <sint32 label="EnvAudio">0</sint32>
+      <sint32 label="MusicBattle">0</sint32>
+      <sint32 label="MusicDay">0</sint32>
+      <sint32 label="MusicNight">0</sint32>
+      <sint32 label="MusicDelay">0</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">28.166958</float>
+        <float label="YPosition">142.296463</float>
+        <float label="ZPosition">-0.000001</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_yoda001</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">28.420284</float>
+        <float label="YPosition">140.632538</float>
+        <float label="ZPosition">0.000061</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_dodonna001</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">32.788208</float>
+        <float label="YPosition">144.004425</float>
+        <float label="ZPosition">0.000000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_repoff001</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">32.691093</float>
+        <float label="YPosition">140.469452</float>
+        <float label="ZPosition">0.000000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_repoff002</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">35.512676</float>
+        <float label="YPosition">139.828751</float>
+        <float label="ZPosition">0.000000</float>
+        <float label="XOrientation">-0.941545</float>
+        <float label="YOrientation">-0.336888</float>
+        <resref label="TemplateResRef">n_repsold001</resref>
+      </struct>
+    </list>
+    <list label="Door List">
+      <struct id="8">
+        <resref label="TemplateResRef">sw_door_hhead1</resref>
+        <exostring label="Tag">Hammerhead 1</exostring>
+        <resref label="LinkedToModule"></resref>
+        <exostring label="LinkedTo"></exostring>
+        <byte label="LinkedToFlags">0</byte>
+        <locstring label="TransitionDestin" strref="4294967295"/>
+        <float label="X">39.559101</float>
+        <float label="Y">135.621002</float>
+        <float label="Z">-0.040756</float>
+        <float label="Bearing">-3.141587</float>
+      </struct>
+      <struct id="8">
+        <resref label="TemplateResRef">sw_door_hhead1</resref>
+        <exostring label="Tag">Hammerhead 1</exostring>
+        <resref label="LinkedToModule"></resref>
+        <exostring label="LinkedTo"></exostring>
+        <byte label="LinkedToFlags">0</byte>
+        <locstring label="TransitionDestin" strref="4294967295"/>
+        <float label="X">29.184999</float>
+        <float label="Y">135.621994</float>
+        <float label="Z">-0.040757</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList"/>
+    <list label="StoreList"/>
+    <list label="TriggerList"/>
+    <list label="WaypointList"/>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">plc_ends</resref>
+        <float label="X">26.138382</float>
+        <float label="Y">139.988647</float>
+        <float label="Z">0.000000</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_ends</resref>
+        <float label="X">40.608677</float>
+        <float label="Y">139.942337</float>
+        <float label="Z">0.003551</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_btlscreen02</resref>
+        <float label="X">28.323135</float>
+        <float label="Y">139.565292</float>
+        <float label="Z">0.003551</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible001</resref>
+        <float label="X">39.543446</float>
+        <float label="Y">131.445831</float>
+        <float label="Z">0.000000</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>

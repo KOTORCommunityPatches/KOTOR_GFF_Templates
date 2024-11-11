@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">29</sint32>
+      <sint32 label="AmbientSndNight">29</sint32>
+      <sint32 label="AmbientSndDayVol">73</sint32>
+      <sint32 label="AmbientSndNitVol">73</sint32>
+      <sint32 label="EnvAudio">2</sint32>
+      <sint32 label="MusicBattle">0</sint32>
+      <sint32 label="MusicDay">2</sint32>
+      <sint32 label="MusicNight">2</sint32>
+      <sint32 label="MusicDelay">120000</sint32>
+    </struct>
+    <list label="Creature List"/>
+    <list label="Door List"/>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList">
+      <struct id="6">
+        <resref label="TemplateResRef">electroniccon001</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">50.238045</float>
+        <float label="YPosition">46.509487</float>
+        <float label="ZPosition">3.346674</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">computerbeeps</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">50.276211</float>
+        <float label="YPosition">46.054451</float>
+        <float label="ZPosition">4.182667</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">enginehum</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">50.236919</float>
+        <float label="YPosition">46.783379</float>
+        <float label="ZPosition">4.166245</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">metalstrain</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">50.340813</float>
+        <float label="YPosition">44.293026</float>
+        <float label="ZPosition">2.809837</float>
+      </struct>
+    </list>
+    <list label="StoreList"/>
+    <list label="TriggerList">
+      <struct id="1">
+        <resref label="TemplateResRef">ebo40_carthtlk</resref>
+        <float label="XPosition">48.748245</float>
+        <float label="YPosition">52.401505</float>
+        <float label="ZPosition">1.800000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-0.027596</float>
+            <float label="PointY">-2.097321</float>
+            <float label="PointZ">0.024866</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.641171</float>
+            <float label="PointY">-2.090843</float>
+            <float label="PointZ">0.025049</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.621658</float>
+            <float label="PointY">0.220772</float>
+            <float label="PointZ">0.024866</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.055195</float>
+            <float label="PointY">0.082790</float>
+            <float label="PointZ">0.024866</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.024866</float>
+          </struct>
+        </list>
+      </struct>
+    </list>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_bastila</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">53.935173</float>
+        <float label="YPosition">49.385792</float>
+        <float label="ZPosition">1.799999</float>
+        <float label="XOrientation">-0.831470</float>
+        <float label="YOrientation">-0.555569</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_carth</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">45.750294</float>
+        <float label="YPosition">49.357857</float>
+        <float label="ZPosition">1.799997</float>
+        <float label="XOrientation">0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_canderous</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">44.362026</float>
+        <float label="YPosition">46.274452</float>
+        <float label="ZPosition">1.845000</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_jolee</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">46.006428</float>
+        <float label="YPosition">43.026352</float>
+        <float label="ZPosition">1.800000</float>
+        <float label="XOrientation">0.831468</float>
+        <float label="YOrientation">0.555573</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_juhani</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">49.903336</float>
+        <float label="YPosition">41.471962</float>
+        <float label="ZPosition">1.800000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_mission</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">53.704979</float>
+        <float label="YPosition">46.539062</float>
+        <float label="ZPosition">1.890286</float>
+        <float label="XOrientation">-1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_zaalbar</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">56.310215</float>
+        <float label="YPosition">47.448978</float>
+        <float label="ZPosition">1.799988</float>
+        <float label="XOrientation">-0.923883</float>
+        <float label="YOrientation">-0.382676</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_hk47</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">57.820728</float>
+        <float label="YPosition">43.179928</float>
+        <float label="ZPosition">1.800283</float>
+        <float label="XOrientation">-0.923879</float>
+        <float label="YOrientation">0.382685</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">pebn_t3m4</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">55.106117</float>
+        <float label="YPosition">41.209541</float>
+        <float label="ZPosition">1.800000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+    </list>
+    <list label="Placeable List"/>
+    <list label="CameraList">
+      <struct id="14">
+        <sint32 label="CameraID">1</sint32>
+        <vector label="Position">
+          <double>41.946507</double>
+          <double>42.651100</double>
+          <double>1.800018</double>
+        </vector>
+        <float label="Pitch">80.000000</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.843391</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.537300</double>
+        </orientation>
+        <float label="Height">2.000000</float>
+        <float label="FieldOfView">70.000000</float>
+      </struct>
+    </list>
+  </struct>
+</gff3>

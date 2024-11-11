@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">20</sint32>
+      <sint32 label="AmbientSndNight">20</sint32>
+      <sint32 label="AmbientSndDayVol">28</sint32>
+      <sint32 label="AmbientSndNitVol">29</sint32>
+      <sint32 label="EnvAudio">2</sint32>
+      <sint32 label="MusicBattle">40</sint32>
+      <sint32 label="MusicDay">20</sint32>
+      <sint32 label="MusicNight">20</sint32>
+      <sint32 label="MusicDelay">0</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">16.227205</float>
+        <float label="YPosition">15.449151</float>
+        <float label="ZPosition">1.968979</float>
+        <float label="XOrientation">-0.555579</float>
+        <float label="YOrientation">-0.831464</float>
+        <resref label="TemplateResRef">kas23_jarak_01</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">15.336290</float>
+        <float label="YPosition">14.038505</float>
+        <float label="ZPosition">1.968971</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+        <resref label="TemplateResRef">kas23_woorwil_01</resref>
+      </struct>
+    </list>
+    <list label="Door List">
+      <struct id="8">
+        <resref label="TemplateResRef">sw_door_kash003</resref>
+        <exostring label="Tag">KashyyykDoor2</exostring>
+        <resref label="LinkedToModule">kas_m23aa</resref>
+        <exostring label="LinkedTo">kas23ab_kas23aa</exostring>
+        <byte label="LinkedToFlags">2</byte>
+        <locstring label="TransitionDestin" strref="11249"/>
+        <float label="X">29.348301</float>
+        <float label="Y">12.352500</float>
+        <float label="Z">2.043960</float>
+        <float label="Bearing">-1.710421</float>
+      </struct>
+    </list>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList">
+      <struct id="6">
+        <resref label="TemplateResRef">rndwookanimals</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">21.705915</float>
+        <float label="YPosition">14.715023</float>
+        <float label="ZPosition">3.468957</float>
+      </struct>
+    </list>
+    <list label="StoreList"/>
+    <list label="TriggerList"/>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">3</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">kas23aa_kas23ab</resref>
+        <exostring label="Tag">kas23aa_kas23ab</exostring>
+        <locstring label="LocalizedName" strref="11523"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">27.634476</float>
+        <float label="YPosition">12.549031</float>
+        <float label="ZPosition">1.979181</float>
+        <float label="XOrientation">-0.980785</float>
+        <float label="YOrientation">0.195092</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_mapnote001</resref>
+        <exostring label="Tag">SW_MAPNOTE001</exostring>
+        <locstring label="LocalizedName" strref="349"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">1</byte>
+        <locstring label="MapNote" strref="33461"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">27.842918</float>
+        <float label="YPosition">13.321379</float>
+        <float label="ZPosition">1.968957</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">wp_transabort</resref>
+        <exostring label="Tag">wp_transabort</exostring>
+        <locstring label="LocalizedName" strref="42802"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">26.997465</float>
+        <float label="YPosition">12.634542</float>
+        <float label="ZPosition">2.089758</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">plc_foodpile</resref>
+        <float label="X">7.210815</float>
+        <float label="Y">14.460440</float>
+        <float label="Z">2.856457</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_equppack</resref>
+        <float label="X">8.239090</float>
+        <float label="Y">14.927649</float>
+        <float label="Z">2.856457</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_backpack</resref>
+        <float label="X">8.818542</float>
+        <float label="Y">15.255310</float>
+        <float label="Z">2.856457</float>
+        <float label="Bearing">-2.945222</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">kas23ab_cont_01</resref>
+        <float label="X">11.438412</float>
+        <float label="Y">6.097388</float>
+        <float label="Z">1.968957</float>
+        <float label="Bearing">3.141577</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">k_trans_abort</resref>
+        <float label="X">29.908836</float>
+        <float label="Y">12.089223</float>
+        <float label="Z">7.756960</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>

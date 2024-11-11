@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="ARE">
+  <struct id="4294967295">
+    <sint32 label="ID">0</sint32>
+    <sint32 label="Creator_ID">0</sint32>
+    <uint32 label="Version">38</uint32>
+    <exostring label="Tag">Untitled</exostring>
+    <locstring label="Name" strref="46007"/>
+    <exostring label="Comments"></exostring>
+    <struct label="Map" id="0">
+      <sint32 label="MapResX">0</sint32>
+      <sint32 label="NorthAxis">0</sint32>
+      <float label="WorldPt1X">0.000000</float>
+      <float label="WorldPt1Y">0.000000</float>
+      <float label="WorldPt2X">0.000000</float>
+      <float label="WorldPt2Y">0.000000</float>
+      <float label="MapPt1X">0.000000</float>
+      <float label="MapPt1Y">0.000000</float>
+      <float label="MapPt2X">0.000000</float>
+      <float label="MapPt2Y">0.000000</float>
+      <sint32 label="MapZoom">1</sint32>
+    </struct>
+    <list label="Expansion_List"/>
+    <uint32 label="Flags">0</uint32>
+    <sint32 label="ModSpotCheck">0</sint32>
+    <sint32 label="ModListenCheck">0</sint32>
+    <float label="AlphaTest">0.200000</float>
+    <sint32 label="CameraStyle">0</sint32>
+    <resref label="DefaultEnvMap"></resref>
+    <resref label="Grass_TexName"></resref>
+    <float label="Grass_Density">0.000000</float>
+    <float label="Grass_QuadSize">0.000000</float>
+    <uint32 label="Grass_Ambient">0</uint32>
+    <uint32 label="Grass_Diffuse">0</uint32>
+    <float label="Grass_Prob_LL">0.250000</float>
+    <float label="Grass_Prob_LR">0.250000</float>
+    <float label="Grass_Prob_UL">0.250000</float>
+    <float label="Grass_Prob_UR">0.250000</float>
+    <uint32 label="MoonAmbientColor">0</uint32>
+    <uint32 label="MoonDiffuseColor">0</uint32>
+    <byte label="MoonFogOn">0</byte>
+    <float label="MoonFogNear">99.000000</float>
+    <float label="MoonFogFar">100.000000</float>
+    <uint32 label="MoonFogColor">0</uint32>
+    <byte label="MoonShadows">0</byte>
+    <uint32 label="SunAmbientColor">0</uint32>
+    <uint32 label="SunDiffuseColor">0</uint32>
+    <byte label="SunFogOn">0</byte>
+    <float label="SunFogNear">100.000000</float>
+    <float label="SunFogFar">4000.000000</float>
+    <uint32 label="SunFogColor">5917509</uint32>
+    <byte label="SunShadows">0</byte>
+    <uint32 label="DynAmbientColor">0</uint32>
+    <byte label="IsNight">0</byte>
+    <byte label="LightingScheme">0</byte>
+    <byte label="ShadowOpacity">205</byte>
+    <byte label="DayNightCycle">0</byte>
+    <sint32 label="ChanceRain">0</sint32>
+    <sint32 label="ChanceSnow">0</sint32>
+    <sint32 label="ChanceLightning">0</sint32>
+    <sint32 label="WindPower">0</sint32>
+    <uint16 label="LoadScreenID">0</uint16>
+    <byte label="PlayerVsPlayer">3</byte>
+    <byte label="NoRest">0</byte>
+    <byte label="NoHangBack">0</byte>
+    <byte label="PlayerOnly">0</byte>
+    <byte label="Unescapable">0</byte>
+    <byte label="StealthXPEnabled">0</byte>
+    <uint32 label="StealthXPLoss">0</uint32>
+    <uint32 label="StealthXPMax">0</uint32>
+    <list label="Rooms">
+      <struct id="0">
+        <exostring label="RoomName">m03mg_01a</exostring>
+        <sint32 label="EnvAudio">8</sint32>
+        <float label="AmbientScale">1.000000</float>
+      </struct>
+      <struct id="0">
+        <exostring label="RoomName">m03mg_01b</exostring>
+        <sint32 label="EnvAudio">8</sint32>
+        <float label="AmbientScale">1.000000</float>
+      </struct>
+    </list>
+    <resref label="OnEnter"></resref>
+    <resref label="OnExit"></resref>
+    <resref label="OnHeartbeat"></resref>
+    <resref label="OnUserDefined"></resref>
+    <struct label="MiniGame" id="0">
+      <uint32 label="Type">1</uint32>
+      <float label="Near_Clip">0.100000</float>
+      <float label="Far_Clip">40000.000000</float>
+      <float label="CameraViewAngle">65.000000</float>
+      <uint32 label="Bump_Plane">3</uint32>
+      <byte label="UseInertia">1</byte>
+      <byte label="DoBumping">0</byte>
+      <uint32 label="DOF">1</uint32>
+      <float label="MovementPerSec">100.000000</float>
+      <float label="LateralAccel">300.000000</float>
+      <resref label="Music"></resref>
+      <struct label="Player" id="0">
+        <resref label="Track">m03mg_tr01</resref>
+        <sint32 label="Num_Loops">1</sint32>
+        <float label="Sphere_Radius">3.000000</float>
+        <float label="Invince_Period">0.300000</float>
+        <uint32 label="Hit_Points">999</uint32>
+        <uint32 label="Max_HPs">999</uint32>
+        <sint32 label="Bump_Damage">0</sint32>
+        <struct label="Sounds" id="0">
+          <resref label="Death"></resref>
+          <resref label="Engine"></resref>
+        </struct>
+        <list label="Models">
+          <struct id="0">
+            <resref label="Model">v_superbike</resref>
+            <byte label="RotatingModel">1</byte>
+          </struct>
+          <struct id="0">
+            <resref label="Model">m17mg_camera</resref>
+            <byte label="RotatingModel">1</byte>
+          </struct>
+          <struct id="0">
+            <resref label="Model">v_damagetat</resref>
+            <byte label="RotatingModel">1</byte>
+          </struct>
+          <struct id="0">
+            <resref label="Model">lmg_distort</resref>
+            <byte label="RotatingModel">1</byte>
+          </struct>
+        </list>
+        <struct label="Scripts" id="0">
+          <resref label="OnCreate">oncreate</resref>
+          <resref label="OnHeartbeat">heartbeat</resref>
+          <resref label="OnDamage"></resref>
+          <resref label="OnDeath"></resref>
+          <resref label="OnFire">onfire</resref>
+          <resref label="OnHitBullet"></resref>
+          <resref label="OnHitFollower">accelpad</resref>
+          <resref label="OnHitObstacle">obstacle</resref>
+          <resref label="OnTrackLoop"></resref>
+          <resref label="OnAnimEvent"></resref>
+        </struct>
+        <resref label="Camera"></resref>
+        <byte label="CameraRotate">0</byte>
+        <float label="Minimum_Speed">0.000000</float>
+        <float label="Maximum_Speed">0.000000</float>
+        <float label="Accel_Secs">25.000000</float>
+        <float label="Start_Offset_X">0.000000</float>
+        <float label="Start_Offset_Y">0.000000</float>
+        <float label="Start_Offset_Z">0.000000</float>
+        <vector label="TunnelInfinite">
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+        </vector>
+        <float label="TunnelXPos">0.000000</float>
+        <float label="TunnelYPos">0.000000</float>
+        <float label="TunnelZPos">0.000000</float>
+        <float label="TunnelXNeg">0.000000</float>
+        <float label="TunnelYNeg">0.000000</float>
+        <float label="TunnelZNeg">0.000000</float>
+        <float label="Target_Offset_X">0.000000</float>
+        <float label="Target_Offset_Y">0.000000</float>
+        <float label="Target_Offset_Z">0.000000</float>
+        <list label="Gun_Banks">
+          <struct id="0">
+            <uint32 label="BankID">0</uint32>
+            <resref label="Gun_Model">mgg_null</resref>
+            <resref label="Fire_Sound"></resref>
+            <struct label="Bullet" id="0">
+              <uint32 label="Damage">0</uint32>
+              <float label="Lifespan">0.010000</float>
+              <resref label="Bullet_Model">mgb_null</resref>
+              <float label="Rate_Of_Fire">0.010000</float>
+              <resref label="Collision_Sound"></resref>
+              <float label="Speed">0.000000</float>
+              <uint32 label="Target_Type">3</uint32>
+            </struct>
+          </struct>
+        </list>
+      </struct>
+      <list label="Enemies">
+        <struct id="0">
+          <resref label="Track">m03mg_mgt02</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt03</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt04</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt05</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt06</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt07</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt08</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt10</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt11</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt12</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt13</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt14</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt15</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt16</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt17</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt18</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt19</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt20</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt21</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt22</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt23</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt24</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt25</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt26</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt27</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt28</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt29</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt30</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+        <struct id="0">
+          <resref label="Track">m03mg_mgt31</resref>
+          <sint32 label="Num_Loops">-1</sint32>
+          <float label="Sphere_Radius">3.000000</float>
+          <float label="Invince_Period">0.000000</float>
+          <uint32 label="Hit_Points">1</uint32>
+          <uint32 label="Max_HPs">1</uint32>
+          <sint32 label="Bump_Damage">0</sint32>
+          <struct label="Sounds" id="0">
+            <resref label="Death">mgs_accelpad</resref>
+            <resref label="Engine"></resref>
+          </struct>
+          <list label="Models">
+            <struct id="0">
+              <resref label="Model">mgf_accelpad01</resref>
+              <byte label="RotatingModel">1</byte>
+            </struct>
+          </list>
+          <struct label="Scripts" id="0">
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnDamage"></resref>
+            <resref label="OnDeath"></resref>
+            <resref label="OnFire"></resref>
+            <resref label="OnHitBullet"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitObstacle"></resref>
+            <resref label="OnTrackLoop"></resref>
+            <resref label="OnAnimEvent"></resref>
+          </struct>
+          <byte label="Trigger">1</byte>
+          <list label="Gun_Banks"/>
+        </struct>
+      </list>
+      <list label="Obstacles">
+        <struct id="0">
+          <resref label="Name">m03mg_mgo01</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo02</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo03</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo04</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo05</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo06</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo07</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo08</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo09</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo10</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo11</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo12</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo13</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo14</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo15</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo16</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo17</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo18</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo19</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo20</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo21</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+        <struct id="0">
+          <resref label="Name">m03mg_mgo22</resref>
+          <struct label="Scripts" id="0">
+            <resref label="OnAnimEvent"></resref>
+            <resref label="OnCreate"></resref>
+            <resref label="OnHeartbeat"></resref>
+            <resref label="OnHitFollower"></resref>
+            <resref label="OnHitBullet"></resref>
+          </struct>
+        </struct>
+      </list>
+    </struct>
+  </struct>
+</gff3>

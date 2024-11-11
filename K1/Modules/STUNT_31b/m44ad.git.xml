@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">40</sint32>
+      <sint32 label="AmbientSndNight">40</sint32>
+      <sint32 label="AmbientSndDayVol">49</sint32>
+      <sint32 label="AmbientSndNitVol">50</sint32>
+      <sint32 label="EnvAudio">0</sint32>
+      <sint32 label="MusicBattle">0</sint32>
+      <sint32 label="MusicDay">0</sint32>
+      <sint32 label="MusicNight">0</sint32>
+      <sint32 label="MusicDelay">0</sint32>
+    </struct>
+    <list label="Creature List"/>
+    <list label="Door List"/>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList"/>
+    <list label="StoreList"/>
+    <list label="TriggerList"/>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">WP01</exostring>
+        <locstring label="LocalizedName" strref="37907"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">138.116760</float>
+        <float label="YPosition">73.446358</float>
+        <float label="ZPosition">17.582077</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">invisible001</resref>
+        <float label="X">75.079399</float>
+        <float label="Y">69.018471</float>
+        <float label="Z">13.751005</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">light001</resref>
+        <float label="X">134.049622</float>
+        <float label="Y">66.490326</float>
+        <float label="Z">13.750584</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>

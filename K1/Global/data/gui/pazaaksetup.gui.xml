@@ -1,0 +1,3792 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GUI">
+  <struct id="4294967295">
+    <list label="CONTROLS">
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">0</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_TITLE</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">192</sint32>
+          <sint32 label="TOP">0</sint32>
+          <sint32 label="WIDTH">256</sint32>
+          <sint32 label="HEIGHT">18</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.980392</double>
+            <double>1.000000</double>
+            <double>0.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <uint32 label="STRREF">32323</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">1</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL00</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">52</sint32>
+          <sint32 label="TOP">41</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">2</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL01</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">53</sint32>
+          <sint32 label="TOP">108</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">3</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL02</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">53</sint32>
+          <sint32 label="TOP">174</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">4</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL03</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">53</sint32>
+          <sint32 label="TOP">241</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">5</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL04</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">52</sint32>
+          <sint32 label="TOP">308</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">6</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL05</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">53</sint32>
+          <sint32 label="TOP">375</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmpos</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">7</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL15</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">120</sint32>
+          <sint32 label="TOP">375</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">8</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL14</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">119</sint32>
+          <sint32 label="TOP">308</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">9</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL13</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">120</sint32>
+          <sint32 label="TOP">241</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">10</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL12</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">120</sint32>
+          <sint32 label="TOP">174</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">11</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL11</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">120</sint32>
+          <sint32 label="TOP">108</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">12</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL10</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">120</sint32>
+          <sint32 label="TOP">41</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardmneg</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">13</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL24</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">186</sint32>
+          <sint32 label="TOP">308</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">14</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL23</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">187</sint32>
+          <sint32 label="TOP">241</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">15</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL25</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">186</sint32>
+          <sint32 label="TOP">375</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">16</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL22</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">187</sint32>
+          <sint32 label="TOP">174</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">17</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL21</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">187</sint32>
+          <sint32 label="TOP">108</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">18</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_AVAIL20</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">187</sint32>
+          <sint32 label="TOP">41</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardrarem</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">19</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN8</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">450</sint32>
+          <sint32 label="TOP">338</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">20</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN6</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">451</sint32>
+          <sint32 label="TOP">271</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">21</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN4</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">451</sint32>
+          <sint32 label="TOP">204</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">22</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN2</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">451</sint32>
+          <sint32 label="TOP">138</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">23</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN9</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">516</sint32>
+          <sint32 label="TOP">338</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">24</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN0</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">451</sint32>
+          <sint32 label="TOP">71</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">25</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN7</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">516</sint32>
+          <sint32 label="TOP">271</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">26</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN5</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">516</sint32>
+          <sint32 label="TOP">204</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">27</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN3</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">516</sint32>
+          <sint32 label="TOP">138</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">28</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_CHOSEN1</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">516</sint32>
+          <sint32 label="TOP">71</sint32>
+          <sint32 label="WIDTH">64</sint32>
+          <sint32 label="HEIGHT">64</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardback</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL">lbl_cardhilite</resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">9</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">fnt_console</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">29</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL00</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">65</sint32>
+          <sint32 label="TOP">47</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+1</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">30</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL01</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">65</sint32>
+          <sint32 label="TOP">114</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+2</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">31</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL02</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">65</sint32>
+          <sint32 label="TOP">180</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+3</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">32</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL03</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">65</sint32>
+          <sint32 label="TOP">247</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+4</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">33</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL04</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">64</sint32>
+          <sint32 label="TOP">314</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+5</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">34</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL05</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">65</sint32>
+          <sint32 label="TOP">381</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">+6</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">35</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL10</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">132</sint32>
+          <sint32 label="TOP">47</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-1</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">36</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL11</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">132</sint32>
+          <sint32 label="TOP">114</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-2</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">37</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL12</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">132</sint32>
+          <sint32 label="TOP">180</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-3</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">38</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL13</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">132</sint32>
+          <sint32 label="TOP">247</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-4</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">39</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL14</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">131</sint32>
+          <sint32 label="TOP">314</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-5</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">40</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL15</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">132</sint32>
+          <sint32 label="TOP">381</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT">-6</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">41</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL20</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">199</sint32>
+          <sint32 label="TOP">47</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTE=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">42</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL21</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">199</sint32>
+          <sint32 label="TOP">114</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTI=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">43</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL22</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">199</sint32>
+          <sint32 label="TOP">180</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.576471</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTM=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">44</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL23</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">199</sint32>
+          <sint32 label="TOP">247</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.570312</double>
+            <double>0.578125</double>
+            <double>0.898438</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTQ=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">45</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL24</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">198</sint32>
+          <sint32 label="TOP">314</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTU=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">46</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAIL25</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">198</sint32>
+          <sint32 label="TOP">381</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT" base64="true">sTY=</exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">47</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN0</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">463</sint32>
+          <sint32 label="TOP">77</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">48</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN2</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">463</sint32>
+          <sint32 label="TOP">144</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">49</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN4</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">463</sint32>
+          <sint32 label="TOP">210</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">50</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN6</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">463</sint32>
+          <sint32 label="TOP">277</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">51</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN8</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">462</sint32>
+          <sint32 label="TOP">344</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">52</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN1</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">528</sint32>
+          <sint32 label="TOP">77</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">53</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN3</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">528</sint32>
+          <sint32 label="TOP">144</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">54</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN5</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">528</sint32>
+          <sint32 label="TOP">210</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">55</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN7</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">528</sint32>
+          <sint32 label="TOP">277</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">56</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_CHOSEN9</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">528</sint32>
+          <sint32 label="TOP">344</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.568627</double>
+            <double>0.580392</double>
+            <double>0.898039</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">57</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM05</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">69</sint32>
+          <sint32 label="TOP">411</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">58</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM15</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">135</sint32>
+          <sint32 label="TOP">412</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">59</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM25</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">203</sint32>
+          <sint32 label="TOP">412</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">60</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM24</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">203</sint32>
+          <sint32 label="TOP">345</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">61</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM14</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">134</sint32>
+          <sint32 label="TOP">345</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">62</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM04</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">68</sint32>
+          <sint32 label="TOP">344</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">63</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM03</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">68</sint32>
+          <sint32 label="TOP">276</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">64</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM13</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">134</sint32>
+          <sint32 label="TOP">277</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">65</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM23</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">202</sint32>
+          <sint32 label="TOP">277</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">66</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM22</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">202</sint32>
+          <sint32 label="TOP">210</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">67</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM12</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">134</sint32>
+          <sint32 label="TOP">210</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">68</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM02</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">68</sint32>
+          <sint32 label="TOP">209</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">69</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM01</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">68</sint32>
+          <sint32 label="TOP">144</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">70</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM11</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">134</sint32>
+          <sint32 label="TOP">145</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">71</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM21</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">202</sint32>
+          <sint32 label="TOP">145</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">72</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM20</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">203</sint32>
+          <sint32 label="TOP">77</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">73</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM10</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">135</sint32>
+          <sint32 label="TOP">77</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">74</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_AVAILNUM00</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">69</sint32>
+          <sint32 label="TOP">76</sint32>
+          <sint32 label="WIDTH">40</sint32>
+          <sint32 label="HEIGHT">40</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <exostring label="TEXT"></exostring>
+          <uint32 label="STRREF">4294967295</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">75</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_RTEXT</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">333</sint32>
+          <sint32 label="TOP">19</sint32>
+          <sint32 label="WIDTH">248</sint32>
+          <sint32 label="HEIGHT">16</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">20</sint32>
+          <vector label="COLOR">
+            <double>0.000000</double>
+            <double>0.658824</double>
+            <double>0.980392</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <uint32 label="STRREF">32327</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">4</sint32>
+        <sint32 label="ID">76</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">LBL_LTEXT</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">60</sint32>
+          <sint32 label="TOP">19</sint32>
+          <sint32 label="WIDTH">251</sint32>
+          <sint32 label="HEIGHT">16</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">17</sint32>
+          <vector label="COLOR">
+            <double>0.000000</double>
+            <double>0.658824</double>
+            <double>0.980392</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <uint32 label="STRREF">32326</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">77</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_YTEXT</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">270</sint32>
+          <sint32 label="TOP">168</sint32>
+          <sint32 label="WIDTH">114</sint32>
+          <sint32 label="HEIGHT">32</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">0</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.019608</double>
+            <double>0.501961</double>
+            <double>0.647059</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <uint32 label="STRREF">38601</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+      <struct id="0">
+        <sint32 label="CONTROLTYPE">6</sint32>
+        <sint32 label="ID">78</sint32>
+        <byte label="Obj_Locked">0</byte>
+        <exostring label="Obj_Parent">TGuiPanel</exostring>
+        <exostring label="TAG">BTN_ATEXT</exostring>
+        <sint32 label="Obj_ParentID">-1</sint32>
+        <struct label="EXTENT" id="0">
+          <sint32 label="LEFT">247</sint32>
+          <sint32 label="TOP">446</sint32>
+          <sint32 label="WIDTH">146</sint32>
+          <sint32 label="HEIGHT">28</sint32>
+        </struct>
+        <struct label="BORDER" id="0">
+          <resref label="CORNER"></resref>
+          <resref label="EDGE"></resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">2</sint32>
+          <sint32 label="INNEROFFSET">0</sint32>
+          <vector label="COLOR">
+            <double>1.000000</double>
+            <double>1.000000</double>
+            <double>1.000000</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="HILIGHT" id="0">
+          <resref label="CORNER">boxline3</resref>
+          <resref label="EDGE">boxline4</resref>
+          <resref label="FILL"></resref>
+          <sint32 label="FILLSTYLE">2</sint32>
+          <sint32 label="DIMENSION">6</sint32>
+          <sint32 label="INNEROFFSET">9</sint32>
+          <vector label="COLOR">
+            <double>0.984314</double>
+            <double>1.000000</double>
+            <double>0.984314</double>
+          </vector>
+          <byte label="PULSING">0</byte>
+        </struct>
+        <struct label="MOVETO" id="0">
+          <sint32 label="DOWN">-1</sint32>
+          <sint32 label="LEFT">-1</sint32>
+          <sint32 label="RIGHT">-1</sint32>
+          <sint32 label="UP">-1</sint32>
+        </struct>
+        <struct label="TEXT" id="0">
+          <sint32 label="ALIGNMENT">18</sint32>
+          <vector label="COLOR">
+            <double>0.980392</double>
+            <double>1.000000</double>
+            <double>0.000000</double>
+          </vector>
+          <resref label="FONT">dialogfont16x16</resref>
+          <uint32 label="STRREF">32325</uint32>
+          <byte label="PULSING">0</byte>
+        </struct>
+      </struct>
+    </list>
+    <sint32 label="CONTROLTYPE">2</sint32>
+    <byte label="Obj_Locked">1</byte>
+    <exostring label="TAG">TGuiPanel</exostring>
+    <sint32 label="Obj_ParentID">-1</sint32>
+    <struct label="EXTENT" id="0">
+      <sint32 label="LEFT">0</sint32>
+      <sint32 label="TOP">0</sint32>
+      <sint32 label="WIDTH">640</sint32>
+      <sint32 label="HEIGHT">480</sint32>
+    </struct>
+    <float label="ALPHA">1.000000</float>
+    <struct label="BORDER" id="0">
+      <resref label="CORNER"></resref>
+      <resref label="EDGE"></resref>
+      <resref label="FILL">lbl_pazaak01</resref>
+      <sint32 label="FILLSTYLE">2</sint32>
+      <sint32 label="DIMENSION">0</sint32>
+      <sint32 label="INNEROFFSET">0</sint32>
+      <vector label="COLOR">
+        <double>1.000000</double>
+        <double>1.000000</double>
+        <double>1.000000</double>
+      </vector>
+      <byte label="PULSING">0</byte>
+    </struct>
+    <vector label="COLOR">
+      <double>0.000000</double>
+      <double>0.000000</double>
+      <double>0.000000</double>
+    </vector>
+  </struct>
+</gff3>

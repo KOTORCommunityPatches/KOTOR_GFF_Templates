@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">31</sint32>
+      <sint32 label="AmbientSndNight">31</sint32>
+      <sint32 label="AmbientSndDayVol">90</sint32>
+      <sint32 label="AmbientSndNitVol">93</sint32>
+      <sint32 label="EnvAudio">57</sint32>
+      <sint32 label="MusicBattle">47</sint32>
+      <sint32 label="MusicDay">8</sint32>
+      <sint32 label="MusicNight">8</sint32>
+      <sint32 label="MusicDelay">0</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">202.176208</float>
+        <float label="YPosition">247.607849</float>
+        <float label="ZPosition">0.156572</float>
+        <float label="XOrientation">0.000010</float>
+        <float label="YOrientation">-1.000000</float>
+        <resref label="TemplateResRef">sta_45darthmalak</resref>
+      </struct>
+    </list>
+    <list label="Door List">
+      <struct id="8">
+        <resref label="TemplateResRef">k45_door_malak</resref>
+        <exostring label="Tag">k45_door_malak</exostring>
+        <resref label="LinkedToModule"></resref>
+        <exostring label="LinkedTo"></exostring>
+        <byte label="LinkedToFlags">0</byte>
+        <locstring label="TransitionDestin" strref="4294967295"/>
+        <float label="X">202.167999</float>
+        <float label="Y">299.178009</float>
+        <float label="Z">0.161119</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="8">
+        <resref label="TemplateResRef">sta45d_sta45c</resref>
+        <exostring label="Tag">sta45d_sta45c</exostring>
+        <resref label="LinkedToModule">sta_m45ac</resref>
+        <exostring label="LinkedTo">STA45C_WAY_45D</exostring>
+        <byte label="LinkedToFlags">2</byte>
+        <locstring label="TransitionDestin" strref="45927"/>
+        <float label="X">202.167999</float>
+        <float label="Y">310.739014</float>
+        <float label="Z">0.161124</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="8">
+        <resref label="TemplateResRef">k45_door_end</resref>
+        <exostring label="Tag">k45_door_end</exostring>
+        <resref label="LinkedToModule"></resref>
+        <exostring label="LinkedTo"></exostring>
+        <byte label="LinkedToFlags">0</byte>
+        <locstring label="TransitionDestin" strref="4294967295"/>
+        <float label="X">231.442993</float>
+        <float label="Y">287.052002</float>
+        <float label="Z">-3.374220</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+    </list>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList">
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">185.618408</float>
+        <float label="YPosition">240.978271</float>
+        <float label="ZPosition">2.128142</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">219.060242</float>
+        <float label="YPosition">240.914856</float>
+        <float label="ZPosition">2.103948</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">224.671478</float>
+        <float label="YPosition">271.614288</float>
+        <float label="ZPosition">2.180448</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">221.001846</float>
+        <float label="YPosition">276.450439</float>
+        <float label="ZPosition">2.254124</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">179.849548</float>
+        <float label="YPosition">271.700928</float>
+        <float label="ZPosition">2.101766</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">183.602051</float>
+        <float label="YPosition">276.358856</float>
+        <float label="ZPosition">2.082268</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">185.406311</float>
+        <float label="YPosition">240.527191</float>
+        <float label="ZPosition">2.122737</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">219.463745</float>
+        <float label="YPosition">240.633408</float>
+        <float label="ZPosition">2.138679</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">180.276550</float>
+        <float label="YPosition">271.017181</float>
+        <float label="ZPosition">2.698977</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">183.479416</float>
+        <float label="YPosition">276.051025</float>
+        <float label="ZPosition">1.611047</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">220.972305</float>
+        <float label="YPosition">276.524994</float>
+        <float label="ZPosition">2.276430</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">224.571030</float>
+        <float label="YPosition">271.538055</float>
+        <float label="ZPosition">2.092395</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">228.299591</float>
+        <float label="YPosition">231.689529</float>
+        <float label="ZPosition">6.498291</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">228.028091</float>
+        <float label="YPosition">231.380447</float>
+        <float label="ZPosition">6.405895</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">forcefield2</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">175.483536</float>
+        <float label="YPosition">231.975494</float>
+        <float label="ZPosition">6.525647</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">frcefldroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">175.983536</float>
+        <float label="YPosition">231.640167</float>
+        <float label="ZPosition">6.487141</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">219.989410</float>
+        <float label="YPosition">275.201935</float>
+        <float label="ZPosition">1.611120</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">223.576233</float>
+        <float label="YPosition">270.889008</float>
+        <float label="ZPosition">1.708391</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">217.963226</float>
+        <float label="YPosition">241.426178</float>
+        <float label="ZPosition">1.541434</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">229.093079</float>
+        <float label="YPosition">230.890121</float>
+        <float label="ZPosition">6.111039</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">175.339569</float>
+        <float label="YPosition">230.937897</float>
+        <float label="ZPosition">6.111116</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">186.232056</float>
+        <float label="YPosition">241.487259</float>
+        <float label="ZPosition">1.540282</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">180.964020</float>
+        <float label="YPosition">270.494263</float>
+        <float label="ZPosition">1.611120</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">drainedcaptive</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">184.391937</float>
+        <float label="YPosition">275.257935</float>
+        <float label="ZPosition">1.611120</float>
+      </struct>
+    </list>
+    <list label="StoreList"/>
+    <list label="TriggerList">
+      <struct id="1">
+        <resref label="TemplateResRef">k45_init_malak</resref>
+        <float label="XPosition">199.890793</float>
+        <float label="YPosition">258.326630</float>
+        <float label="ZPosition">0.042792</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-1.315216</float>
+            <float label="PointY">0.026428</float>
+            <float label="PointZ">0.021720</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-1.158081</float>
+            <float label="PointY">-2.721146</float>
+            <float label="PointZ">0.093328</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">5.714127</float>
+            <float label="PointY">-2.632812</float>
+            <float label="PointZ">0.093328</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">5.918655</float>
+            <float label="PointY">0.031830</float>
+            <float label="PointZ">0.021047</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.654251</float>
+            <float label="PointY">0.057098</float>
+            <float label="PointZ">0.017911</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.615799</float>
+            <float label="PointY">-0.987976</float>
+            <float label="PointZ">0.093328</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.015869</float>
+            <float label="PointY">-1.131592</float>
+            <float label="PointZ">0.093328</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.004501</float>
+            <float label="PointY">0.023468</float>
+            <float label="PointZ">0.022088</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">227.002960</float>
+        <float label="YPosition">228.600616</float>
+        <float label="ZPosition">4.611075</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.024902</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.262054</float>
+            <float label="PointY">-2.298584</float>
+            <float label="PointZ">0.024902</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">6.832611</float>
+            <float label="PointY">2.296463</float>
+            <float label="PointZ">0.024902</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.347168</float>
+            <float label="PointY">4.414154</float>
+            <float label="PointZ">0.025146</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.059387</float>
+            <float label="PointY">0.078903</float>
+            <float label="PointZ">0.024902</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">172.933426</float>
+        <float label="YPosition">232.990479</float>
+        <float label="ZPosition">4.611116</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.308792</float>
+            <float label="PointY">-2.276154</float>
+            <float label="PointZ">0.025105</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.287292</float>
+            <float label="PointY">-6.794083</float>
+            <float label="PointZ">0.025105</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.448364</float>
+            <float label="PointY">-4.337738</float>
+            <float label="PointZ">0.025105</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.038712</float>
+            <float label="PointY">0.032288</float>
+            <float label="PointZ">0.025105</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025105</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">188.037598</float>
+        <float label="YPosition">246.707642</float>
+        <float label="ZPosition">0.082573</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.781342</float>
+            <float label="PointY">-2.793167</float>
+            <float label="PointZ">0.000016</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.299896</float>
+            <float label="PointY">-5.898880</float>
+            <float label="PointZ">-0.008488</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">3.433960</float>
+            <float label="PointY">-3.236130</float>
+            <float label="PointZ">0.004664</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.127228</float>
+            <float label="PointY">-0.377441</float>
+            <float label="PointZ">0.021624</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.023560</float>
+            <float label="PointY">-0.009308</float>
+            <float label="PointZ">0.024917</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">185.862671</float>
+        <float label="YPosition">275.878387</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.506638</float>
+            <float label="PointY">-2.748505</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.275375</float>
+            <float label="PointY">-5.061340</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.969467</float>
+            <float label="PointY">-1.842896</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.077179</float>
+            <float label="PointY">0.133545</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">214.051697</float>
+        <float label="YPosition">243.212097</float>
+        <float label="ZPosition">0.058106</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-0.112854</float>
+            <float label="PointY">0.050232</float>
+            <float label="PointZ">0.025478</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.475311</float>
+            <float label="PointY">-2.480133</float>
+            <float label="PointZ">0.014485</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">5.364990</float>
+            <float label="PointY">0.127625</float>
+            <float label="PointZ">0.019506</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.555115</float>
+            <float label="PointY">2.727234</float>
+            <float label="PointZ">0.042694</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">217.710999</float>
+        <float label="YPosition">274.787445</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.212891</float>
+            <float label="PointY">-1.771393</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.155518</float>
+            <float label="PointY">-4.059509</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.160980</float>
+            <float label="PointY">-1.965881</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.047800</float>
+            <float label="PointY">-0.043485</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">182.803085</float>
+        <float label="YPosition">272.175201</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.657318</float>
+            <float label="PointY">-3.475800</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.687439</float>
+            <float label="PointY">-5.955719</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">2.998413</float>
+            <float label="PointY">-2.255005</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.165588</float>
+            <float label="PointY">0.076752</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric001</resref>
+        <float label="XPosition">221.242004</float>
+        <float label="YPosition">271.122559</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">-2.315018</float>
+            <float label="PointY">-1.900024</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.498108</float>
+            <float label="PointY">-4.597412</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">1.839203</float>
+            <float label="PointY">-2.815552</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">-0.020966</float>
+            <float label="PointY">-0.046509</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+        </list>
+      </struct>
+      <struct id="1">
+        <resref label="TemplateResRef">newgeneric002</resref>
+        <float label="XPosition">200.010727</float>
+        <float label="YPosition">303.349030</float>
+        <float label="ZPosition">0.150330</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">0.000000</float>
+        <float label="ZOrientation">0.000000</float>
+        <list label="Geometry">
+          <struct id="3">
+            <float label="PointX">0.000000</float>
+            <float label="PointY">0.000000</float>
+            <float label="PointZ">0.025000</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.019424</float>
+            <float label="PointY">-0.038818</float>
+            <float label="PointZ">0.025034</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">0.019699</float>
+            <float label="PointY">-1.960236</float>
+            <float label="PointZ">0.026763</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.290298</float>
+            <float label="PointY">-2.057281</float>
+            <float label="PointZ">0.026813</float>
+          </struct>
+          <struct id="3">
+            <float label="PointX">4.251801</float>
+            <float label="PointY">-0.000031</float>
+            <float label="PointZ">0.024924</float>
+          </struct>
+        </list>
+      </struct>
+    </list>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta45d_way_45c</resref>
+        <exostring label="Tag">STA45D_WAY_45C</exostring>
+        <locstring label="LocalizedName" strref="35597"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">202.218048</float>
+        <float label="YPosition">308.426147</float>
+        <float label="ZPosition">0.266893</float>
+        <float label="XOrientation">-0.000102</float>
+        <float label="YOrientation">-1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_party1</resref>
+        <exostring label="Tag">sta_way_party1</exostring>
+        <locstring label="LocalizedName" strref="21456"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">198.554474</float>
+        <float label="YPosition">321.706421</float>
+        <float label="ZPosition">0.140655</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_party2</resref>
+        <exostring label="Tag">sta_way_party2</exostring>
+        <locstring label="LocalizedName" strref="21457"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">204.729187</float>
+        <float label="YPosition">321.837646</float>
+        <float label="ZPosition">0.141258</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">k45d_map_command</resref>
+        <exostring label="Tag">k45d_map_command</exostring>
+        <locstring label="LocalizedName" strref="35595"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">1</byte>
+        <locstring label="MapNote" strref="35596"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">202.189667</float>
+        <float label="YPosition">308.137177</float>
+        <float label="ZPosition">0.387255</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">k45d_map_elevato</resref>
+        <exostring label="Tag">k45d_map_elevato</exostring>
+        <locstring label="LocalizedName" strref="35470"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">1</byte>
+        <locstring label="MapNote" strref="35471"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">238.391953</float>
+        <float label="YPosition">293.665527</float>
+        <float label="ZPosition">-3.390000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_player</resref>
+        <exostring label="Tag">sta_way_player</exostring>
+        <locstring label="LocalizedName" strref="40020"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">202.157776</float>
+        <float label="YPosition">249.379578</float>
+        <float label="ZPosition">0.111119</float>
+        <float label="XOrientation">0.000047</float>
+        <float label="YOrientation">-1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive2</resref>
+        <exostring label="Tag">sta_way_captive2</exostring>
+        <locstring label="LocalizedName" strref="40382"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">216.079681</float>
+        <float label="YPosition">266.237732</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.382683</float>
+        <float label="YOrientation">0.923880</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive3</resref>
+        <exostring label="Tag">sta_way_captive3</exostring>
+        <locstring label="LocalizedName" strref="40383"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">177.536942</float>
+        <float label="YPosition">225.519547</float>
+        <float label="ZPosition">4.611115</float>
+        <float label="XOrientation">-0.382683</float>
+        <float label="YOrientation">0.923880</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive4</resref>
+        <exostring label="Tag">sta_way_captive4</exostring>
+        <locstring label="LocalizedName" strref="40384"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">215.322601</float>
+        <float label="YPosition">270.366364</float>
+        <float label="ZPosition">0.111118</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive5</resref>
+        <exostring label="Tag">sta_way_captive5</exostring>
+        <locstring label="LocalizedName" strref="40385"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">235.575424</float>
+        <float label="YPosition">233.231964</float>
+        <float label="ZPosition">4.611116</float>
+        <float label="XOrientation">-0.831470</float>
+        <float label="YOrientation">-0.555569</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive6</resref>
+        <exostring label="Tag">sta_way_captive6</exostring>
+        <locstring label="LocalizedName" strref="40386"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">188.114838</float>
+        <float label="YPosition">270.697083</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">-1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive7</resref>
+        <exostring label="Tag">sta_way_captive7</exostring>
+        <locstring label="LocalizedName" strref="40387"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">187.294235</float>
+        <float label="YPosition">250.477020</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.195135</float>
+        <float label="YOrientation">-0.980776</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive8</resref>
+        <exostring label="Tag">sta_way_captive8</exostring>
+        <locstring label="LocalizedName" strref="40388"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">187.758301</float>
+        <float label="YPosition">269.174377</float>
+        <float label="ZPosition">0.111121</float>
+        <float label="XOrientation">-0.382683</float>
+        <float label="YOrientation">0.923880</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sta_way_captive1</resref>
+        <exostring label="Tag">sta_way_captive1</exostring>
+        <locstring label="LocalizedName" strref="40381"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">212.922958</float>
+        <float label="YPosition">245.768372</float>
+        <float label="ZPosition">0.074275</float>
+        <float label="XOrientation">0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">sta_pc_start</exostring>
+        <locstring label="LocalizedName" strref="30765"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">202.164551</float>
+        <float label="YPosition">256.999023</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.000038</float>
+        <float label="YOrientation">-1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">211.330292</float>
+        <float label="YPosition">243.332687</float>
+        <float label="ZPosition">0.071639</float>
+        <float label="XOrientation">0.980787</float>
+        <float label="YOrientation">-0.195082</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">218.648911</float>
+        <float label="YPosition">266.230927</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.555570</float>
+        <float label="YOrientation">0.831470</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">216.037750</float>
+        <float label="YPosition">270.940613</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">0.555570</float>
+        <float label="YOrientation">0.831470</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">190.506409</float>
+        <float label="YPosition">245.883316</float>
+        <float label="ZPosition">0.075199</float>
+        <float label="XOrientation">-0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">185.154205</float>
+        <float label="YPosition">267.656433</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">-0.831465</float>
+        <float label="YOrientation">0.555577</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">188.631821</float>
+        <float label="YPosition">271.968323</float>
+        <float label="ZPosition">0.111120</float>
+        <float label="XOrientation">-0.831465</float>
+        <float label="YOrientation">0.555577</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">171.148651</float>
+        <float label="YPosition">230.932449</float>
+        <float label="ZPosition">4.611117</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">2</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">sta_pc_cutscene_jump</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">233.295715</float>
+        <float label="YPosition">231.333862</float>
+        <float label="ZPosition">4.611116</float>
+        <float label="XOrientation">-0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">188.511230</float>
+        <float label="YPosition">244.589142</float>
+        <float label="ZPosition">0.063623</float>
+        <float label="XOrientation">-0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">183.989838</float>
+        <float label="YPosition">268.397339</float>
+        <float label="ZPosition">0.111118</float>
+        <float label="XOrientation">-0.831465</float>
+        <float label="YOrientation">0.555577</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">186.405579</float>
+        <float label="YPosition">272.241028</float>
+        <float label="ZPosition">0.111119</float>
+        <float label="XOrientation">-0.555570</float>
+        <float label="YOrientation">0.831470</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">215.674530</float>
+        <float label="YPosition">243.900665</float>
+        <float label="ZPosition">0.057616</float>
+        <float label="XOrientation">0.707108</float>
+        <float label="YOrientation">-0.707105</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">220.596252</float>
+        <float label="YPosition">268.405640</float>
+        <float label="ZPosition">0.235743</float>
+        <float label="XOrientation">0.831465</float>
+        <float label="YOrientation">0.555577</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">217.480011</float>
+        <float label="YPosition">272.629364</float>
+        <float label="ZPosition">0.183591</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">173.923935</float>
+        <float label="YPosition">229.499222</float>
+        <float label="ZPosition">4.611116</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">sta_malak_facing</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">230.321564</float>
+        <float label="YPosition">229.156021</float>
+        <float label="ZPosition">4.611059</float>
+        <float label="XOrientation">-0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">wp_transabort</resref>
+        <exostring label="Tag">wp_transabort</exostring>
+        <locstring label="LocalizedName" strref="42802"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">202.180023</float>
+        <float label="YPosition">307.461792</float>
+        <float label="ZPosition">0.146531</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">wp_transabort</resref>
+        <exostring label="Tag">wp_transabort</exostring>
+        <locstring label="LocalizedName" strref="42802"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">237.114563</float>
+        <float label="YPosition">292.595062</float>
+        <float label="ZPosition">-3.388497</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">sta_malak_dead</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">204.412476</float>
+        <float label="YPosition">244.601196</float>
+        <float label="ZPosition">0.106885</float>
+        <float label="XOrientation">-1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">sta_pc_dead</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">201.230682</float>
+        <float label="YPosition">244.601700</float>
+        <float label="ZPosition">0.111118</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">wp_final_pc_walk</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">225.821655</float>
+        <float label="YPosition">281.635834</float>
+        <float label="ZPosition">-3.318370</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">sta_end_walk_to</exostring>
+        <locstring label="LocalizedName" strref="348"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">241.796921</float>
+        <float label="YPosition">297.437286</float>
+        <float label="ZPosition">-2.930531</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive3</resref>
+        <float label="X">176.533005</float>
+        <float label="Y">232.130997</float>
+        <float label="Z">4.591000</float>
+        <float label="Bearing">-0.785398</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive4</resref>
+        <float label="X">224.914993</float>
+        <float label="Y">271.742004</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">-1.012291</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive5</resref>
+        <float label="X">227.804001</float>
+        <float label="Y">232.153000</float>
+        <float label="Z">4.591000</float>
+        <float label="Bearing">0.785398</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive6</resref>
+        <float label="X">179.429993</float>
+        <float label="Y">271.756012</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">1.012291</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive7</resref>
+        <float label="X">184.850006</float>
+        <float label="Y">240.184998</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">2.356192</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive8</resref>
+        <float label="X">183.156998</float>
+        <float label="Y">276.513000</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">0.785398</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta45d_cutscene</resref>
+        <float label="X">202.169525</float>
+        <float label="Y">247.219925</float>
+        <float label="Z">0.111099</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">217.729218</float>
+        <float label="Y">241.859818</float>
+        <float label="Z">0.043045</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible003</resref>
+        <float label="X">216.368027</float>
+        <float label="Y">243.123657</float>
+        <float label="Z">0.177979</float>
+        <float label="Bearing">0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible009</resref>
+        <float label="X">188.163757</float>
+        <float label="Y">244.174759</float>
+        <float label="Z">0.059917</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible008</resref>
+        <float label="X">183.210419</float>
+        <float label="Y">269.216949</float>
+        <float label="Z">0.111120</float>
+        <float label="Bearing">-0.589048</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible010</resref>
+        <float label="X">185.934448</float>
+        <float label="Y">273.139893</float>
+        <float label="Z">0.111120</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible005</resref>
+        <float label="X">173.440323</float>
+        <float label="Y">229.216934</float>
+        <float label="Z">4.731478</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible007</resref>
+        <float label="X">230.329361</float>
+        <float label="Y">229.225067</float>
+        <float label="Z">4.731421</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible004</resref>
+        <float label="X">217.798584</float>
+        <float label="Y">272.866943</float>
+        <float label="Z">0.303953</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible006</resref>
+        <float label="X">221.054443</float>
+        <float label="Y">268.689240</float>
+        <float label="Z">0.356105</float>
+        <float label="Bearing">-0.981737</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">186.658096</float>
+        <float label="Y">241.971924</float>
+        <float label="Z">0.042834</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">223.591248</float>
+        <float label="Y">269.277802</float>
+        <float label="Z">0.111119</float>
+        <float label="Bearing">2.159844</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">218.307129</float>
+        <float label="Y">274.550964</float>
+        <float label="Z">0.111120</float>
+        <float label="Bearing">0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">181.815613</float>
+        <float label="Y">269.946045</float>
+        <float label="Z">0.111118</float>
+        <float label="Bearing">-0.589049</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">229.249603</float>
+        <float label="Y">230.680069</float>
+        <float label="Z">4.611021</float>
+        <float label="Bearing">0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">175.245911</float>
+        <float label="Y">230.848541</float>
+        <float label="Z">4.611116</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_jedi_conv</resref>
+        <float label="X">185.278503</float>
+        <float label="Y">274.356140</float>
+        <float label="Z">0.111120</float>
+        <float label="Bearing">0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible012</resref>
+        <float label="X">202.063477</float>
+        <float label="Y">242.852997</float>
+        <float label="Z">0.111118</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible002</resref>
+        <float label="X">204.302505</float>
+        <float label="Y">249.129303</float>
+        <float label="Z">3.104300</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">sta_plc_captive2</resref>
+        <float label="X">221.190002</float>
+        <float label="Y">276.501007</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">-0.785398</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible001</resref>
+        <float label="X">219.473999</float>
+        <float label="Y">240.173004</float>
+        <float label="Z">0.207000</float>
+        <float label="Bearing">-2.356192</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">k_trans_abort</resref>
+        <float label="X">202.154694</float>
+        <float label="Y">313.553650</float>
+        <float label="Z">0.138119</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">k_trans_abort</resref>
+        <float label="X">242.108429</float>
+        <float label="Y">297.685394</float>
+        <float label="Z">-3.398113</float>
+        <float label="Bearing">-0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible011</resref>
+        <float label="X">231.851608</float>
+        <float label="Y">284.875122</float>
+        <float label="Z">-3.370700</float>
+        <float label="Bearing">-2.945231</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">invisible013</resref>
+        <float label="X">202.227707</float>
+        <float label="Y">247.672302</float>
+        <float label="Z">1.611100</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList">
+      <struct id="14">
+        <sint32 label="CameraID">1</sint32>
+        <vector label="Position">
+          <double>213.743454</double>
+          <double>245.757568</double>
+          <double>0.074142</double>
+        </vector>
+        <float label="Pitch">96.400032</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.402755</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.915308</double>
+        </orientation>
+        <float label="Height">0.850000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">2</sint32>
+        <vector label="Position">
+          <double>216.966583</double>
+          <double>269.063782</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">89.300018</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.977783</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.209618</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">3</sint32>
+        <vector label="Position">
+          <double>176.273178</double>
+          <double>226.903168</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">92.500015</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.984350</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.176225</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">4</sint32>
+        <vector label="Position">
+          <double>218.678650</double>
+          <double>270.869263</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">92.599983</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.584968</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.811056</double>
+        </orientation>
+        <float label="Height">1.450000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">5</sint32>
+        <vector label="Position">
+          <double>227.150238</double>
+          <double>230.798981</double>
+          <double>4.611038</double>
+        </vector>
+        <float label="Pitch">101.900002</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.749534</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.661966</double>
+        </orientation>
+        <float label="Height">1.350000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">6</sint32>
+        <vector label="Position">
+          <double>179.545959</double>
+          <double>268.266144</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">80.300003</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.928486</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.371368</double>
+        </orientation>
+        <float label="Height">2.250000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">7</sint32>
+        <vector label="Position">
+          <double>186.748505</double>
+          <double>250.090347</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">91.200020</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.045361</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.998971</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">8</sint32>
+        <vector label="Position">
+          <double>187.740189</double>
+          <double>271.815460</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">90.999992</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.915666</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.401941</double>
+        </orientation>
+        <float label="Height">1.700000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">9</sint32>
+        <vector label="Position">
+          <double>203.964554</double>
+          <double>258.380646</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">85.800018</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.208368</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.978050</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">39.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">10</sint32>
+        <vector label="Position">
+          <double>202.996735</double>
+          <double>246.396149</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">77.900017</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.990329</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.138737</double>
+        </orientation>
+        <float label="Height">2.000000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">11</sint32>
+        <vector label="Position">
+          <double>203.570038</double>
+          <double>260.749023</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">82.500031</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.214739</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.976672</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">12</sint32>
+        <vector label="Position">
+          <double>214.718109</double>
+          <double>225.523895</double>
+          <double>3.056747</double>
+        </vector>
+        <float label="Pitch">81.100021</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.995562</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.094108</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">13</sint32>
+        <vector label="Position">
+          <double>211.958679</double>
+          <double>242.526337</double>
+          <double>0.069412</double>
+        </vector>
+        <float label="Pitch">95.400002</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.709571</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.704634</double>
+        </orientation>
+        <float label="Height">1.250000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">14</sint32>
+        <vector label="Position">
+          <double>217.079041</double>
+          <double>242.539337</double>
+          <double>0.046493</double>
+        </vector>
+        <float label="Pitch">116.699989</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.405941</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.913899</double>
+        </orientation>
+        <float label="Height">0.600000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">73</sint32>
+        <vector label="Position">
+          <double>182.892365</double>
+          <double>240.919250</double>
+          <double>0.025772</double>
+        </vector>
+        <float label="Pitch">80.700127</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.797586</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.603205</double>
+        </orientation>
+        <float label="Height">2.550000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">74</sint32>
+        <vector label="Position">
+          <double>188.073730</double>
+          <double>247.650421</double>
+          <double>0.090957</double>
+        </vector>
+        <float label="Pitch">90.800003</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.013509</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.999909</double>
+        </orientation>
+        <float label="Height">1.650000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">43</sint32>
+        <vector label="Position">
+          <double>218.415375</double>
+          <double>268.883118</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">95.799942</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.737284</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.675582</double>
+        </orientation>
+        <float label="Height">1.400000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">44</sint32>
+        <vector label="Position">
+          <double>221.872131</double>
+          <double>269.804871</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">105.399986</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.880270</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.474472</double>
+        </orientation>
+        <float label="Height">1.450000</float>
+        <float label="FieldOfView">43.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">23</sint32>
+        <vector label="Position">
+          <double>218.272095</double>
+          <double>278.737732</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">82.300003</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.092374</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.995724</double>
+        </orientation>
+        <float label="Height">2.300000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">24</sint32>
+        <vector label="Position">
+          <double>215.807129</double>
+          <double>274.360626</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">87.900047</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.622179</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.782875</double>
+        </orientation>
+        <float label="Height">1.700000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">63</sint32>
+        <vector label="Position">
+          <double>182.178772</double>
+          <double>266.036255</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">94.299995</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.996951</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.078025</double>
+        </orientation>
+        <float label="Height">1.250000</float>
+        <float label="FieldOfView">60.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">64</sint32>
+        <vector label="Position">
+          <double>179.435669</double>
+          <double>271.789490</double>
+          <double>0.111007</double>
+        </vector>
+        <float label="Pitch">70.199982</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.466385</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.884582</double>
+        </orientation>
+        <float label="Height">2.750000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">83</sint32>
+        <vector label="Position">
+          <double>186.503723</double>
+          <double>278.161255</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">86.699997</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.185238</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.982694</double>
+        </orientation>
+        <float label="Height">1.950000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">84</sint32>
+        <vector label="Position">
+          <double>189.161255</double>
+          <double>273.971985</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">91.699989</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.667836</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.744309</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">33</sint32>
+        <vector label="Position">
+          <double>176.432343</double>
+          <double>226.658096</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">90.199997</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.974272</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.225376</double>
+        </orientation>
+        <float label="Height">1.750000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">34</sint32>
+        <vector label="Position">
+          <double>174.317047</double>
+          <double>229.833923</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">100.899971</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.928162</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.372177</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">53</sint32>
+        <vector label="Position">
+          <double>226.215591</double>
+          <double>227.289017</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">87.100006</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.902210</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.431298</double>
+        </orientation>
+        <float label="Height">1.950000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">54</sint32>
+        <vector label="Position">
+          <double>232.818878</double>
+          <double>228.139313</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">88.600006</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.859855</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.510538</double>
+        </orientation>
+        <float label="Height">1.900000</float>
+        <float label="FieldOfView">35.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">101</sint32>
+        <vector label="Position">
+          <double>219.664490</double>
+          <double>242.091492</double>
+          <double>0.036239</double>
+        </vector>
+        <float label="Pitch">85.200035</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.419462</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.907773</double>
+        </orientation>
+        <float label="Height">2.450000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">102</sint32>
+        <vector label="Position">
+          <double>218.737579</double>
+          <double>275.205750</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">93.699974</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.685183</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.728371</double>
+        </orientation>
+        <float label="Height">2.150000</float>
+        <float label="FieldOfView">60.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">103</sint32>
+        <vector label="Position">
+          <double>171.686722</double>
+          <double>228.779465</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">89.700027</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.822393</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.568919</double>
+        </orientation>
+        <float label="Height">1.900000</float>
+        <float label="FieldOfView">33.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">104</sint32>
+        <vector label="Position">
+          <double>222.335083</double>
+          <double>266.543274</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">95.299973</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.997772</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.066709</double>
+        </orientation>
+        <float label="Height">1.500000</float>
+        <float label="FieldOfView">35.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">105</sint32>
+        <vector label="Position">
+          <double>227.708496</double>
+          <double>222.417053</double>
+          <double>4.611068</double>
+        </vector>
+        <float label="Pitch">68.000000</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.999507</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.031410</double>
+        </orientation>
+        <float label="Height">5.600000</float>
+        <float label="FieldOfView">15.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">106</sint32>
+        <vector label="Position">
+          <double>186.157806</double>
+          <double>269.320221</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">86.099998</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.808760</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.588138</double>
+        </orientation>
+        <float label="Height">2.000000</float>
+        <float label="FieldOfView">30.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">107</sint32>
+        <vector label="Position">
+          <double>185.871887</double>
+          <double>241.189240</double>
+          <double>0.039352</double>
+        </vector>
+        <float label="Pitch">116.800034</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.372585</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.927998</double>
+        </orientation>
+        <float label="Height">2.100000</float>
+        <float label="FieldOfView">95.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">108</sint32>
+        <vector label="Position">
+          <double>184.269958</double>
+          <double>277.779694</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">83.000092</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.160746</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.986996</double>
+        </orientation>
+        <float label="Height">2.400000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">109</sint32>
+        <vector label="Position">
+          <double>202.071442</double>
+          <double>249.867218</double>
+          <double>0.110855</double>
+        </vector>
+        <float label="Pitch">108.099991</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.019200</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.999816</double>
+        </orientation>
+        <float label="Height">0.700000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">110</sint32>
+        <vector label="Position">
+          <double>200.105042</double>
+          <double>243.624283</double>
+          <double>0.109237</double>
+        </vector>
+        <float label="Pitch">86.300003</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.817899</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.575362</double>
+        </orientation>
+        <float label="Height">1.050000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">111</sint32>
+        <vector label="Position">
+          <double>202.732330</double>
+          <double>244.619720</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">100.400024</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.613944</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.789349</double>
+        </orientation>
+        <float label="Height">0.000000</float>
+        <float label="FieldOfView">45.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">112</sint32>
+        <vector label="Position">
+          <double>203.175919</double>
+          <double>244.573624</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">112.299950</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.705872</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.708339</double>
+        </orientation>
+        <float label="Height">0.600000</float>
+        <float label="FieldOfView">35.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">113</sint32>
+        <vector label="Position">
+          <double>205.938019</double>
+          <double>243.932587</double>
+          <double>0.099655</double>
+        </vector>
+        <float label="Pitch">87.000000</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.793884</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.608069</double>
+        </orientation>
+        <float label="Height">1.250000</float>
+        <float label="FieldOfView">35.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">114</sint32>
+        <vector label="Position">
+          <double>203.637573</double>
+          <double>289.001495</double>
+          <double>0.131027</double>
+        </vector>
+        <float label="Pitch">85.099998</float>
+        <float label="MicRange">25.000000</float>
+        <orientation label="Orientation">
+          <double>0.669455</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.742853</double>
+        </orientation>
+        <float label="Height">0.200000</float>
+        <float label="FieldOfView">15.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">115</sint32>
+        <vector label="Position">
+          <double>203.612366</double>
+          <double>250.620667</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">82.599998</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.434839</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.900508</double>
+        </orientation>
+        <float label="Height">1.550000</float>
+        <float label="FieldOfView">65.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">116</sint32>
+        <vector label="Position">
+          <double>203.273392</double>
+          <double>246.971069</double>
+          <double>0.109481</double>
+        </vector>
+        <float label="Pitch">81.999886</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.944090</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.329687</double>
+        </orientation>
+        <float label="Height">1.550000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">117</sint32>
+        <vector label="Position">
+          <double>204.034210</double>
+          <double>247.442703</double>
+          <double>0.104721</double>
+        </vector>
+        <float label="Pitch">99.699989</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.866897</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>0.498487</double>
+        </orientation>
+        <float label="Height">0.850000</float>
+        <float label="FieldOfView">55.000000</float>
+      </struct>
+      <struct id="14">
+        <sint32 label="CameraID">118</sint32>
+        <vector label="Position">
+          <double>201.625824</double>
+          <double>246.551804</double>
+          <double>0.111129</double>
+        </vector>
+        <float label="Pitch">92.999931</float>
+        <float label="MicRange">0.000000</float>
+        <orientation label="Orientation">
+          <double>0.992332</double>
+          <double>0.000000</double>
+          <double>0.000000</double>
+          <double>-0.123601</double>
+        </orientation>
+        <float label="Height">0.900000</float>
+        <float label="FieldOfView">35.000000</float>
+      </struct>
+    </list>
+  </struct>
+</gff3>

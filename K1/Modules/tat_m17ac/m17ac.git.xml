@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">40</sint32>
+      <sint32 label="AmbientSndNight">40</sint32>
+      <sint32 label="AmbientSndDayVol">40</sint32>
+      <sint32 label="AmbientSndNitVol">41</sint32>
+      <sint32 label="EnvAudio">2</sint32>
+      <sint32 label="MusicBattle">38</sint32>
+      <sint32 label="MusicDay">14</sint32>
+      <sint32 label="MusicNight">14</sint32>
+      <sint32 label="MusicDelay">120000</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">1.926505</float>
+        <float label="YPosition">1.792733</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">0.707107</float>
+        <float label="YOrientation">0.707107</float>
+        <resref label="TemplateResRef">tat17_08yuka_01</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">-3.921686</float>
+        <float label="YPosition">6.903764</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">0.831470</float>
+        <float label="YOrientation">-0.555569</float>
+        <resref label="TemplateResRef">tat17_08hk47_01</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">-2.798036</float>
+        <float label="YPosition">-7.991278</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">tat17_g_droid_01</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">3.307071</float>
+        <float label="YPosition">-7.005420</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">-0.707107</float>
+        <float label="YOrientation">0.707107</float>
+        <resref label="TemplateResRef">tat17_g_droid_03</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">1.456464</float>
+        <float label="YPosition">-7.302492</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">0.382683</float>
+        <float label="YOrientation">0.923880</float>
+        <resref label="TemplateResRef">tat17_g_droid_02</resref>
+      </struct>
+    </list>
+    <list label="Door List">
+      <struct id="8">
+        <resref label="TemplateResRef">sw_door_tat002</resref>
+        <exostring label="Tag">TatooineDoor1</exostring>
+        <resref label="LinkedToModule">tat_m17aa</resref>
+        <exostring label="LinkedTo">tat17ac_tat17aa</exostring>
+        <byte label="LinkedToFlags">2</byte>
+        <locstring label="TransitionDestin" strref="26976"/>
+        <float label="X">8.574610</float>
+        <float label="Y">3.666680</float>
+        <float label="Z">1.386310</float>
+        <float label="Bearing">-1.570794</float>
+      </struct>
+      <struct id="8">
+        <resref label="TemplateResRef">sw_door_tat003</resref>
+        <exostring label="Tag">TatooineDoor1</exostring>
+        <resref label="LinkedToModule"></resref>
+        <exostring label="LinkedTo"></exostring>
+        <byte label="LinkedToFlags">0</byte>
+        <locstring label="TransitionDestin" strref="4294967295"/>
+        <float label="X">12.000000</float>
+        <float label="Y">3.666680</float>
+        <float label="Z">1.386310</float>
+        <float label="Bearing">-1.570794</float>
+      </struct>
+    </list>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList">
+      <struct id="6">
+        <resref label="TemplateResRef">arcsandbuzzes</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">2.219869</float>
+        <float label="YPosition">-2.747300</float>
+        <float label="ZPosition">2.386331</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">emptysmallroom</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">-2.266864</float>
+        <float label="YPosition">-1.172736</float>
+        <float label="ZPosition">2.386331</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">finconfrm</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">3.033923</float>
+        <float label="YPosition">-0.364105</float>
+        <float label="ZPosition">2.386331</float>
+      </struct>
+      <struct id="6">
+        <resref label="TemplateResRef">randomdroids</resref>
+        <uint32 label="GeneratedType">0</uint32>
+        <float label="XPosition">0.072034</float>
+        <float label="YPosition">0.609115</float>
+        <float label="ZPosition">2.886279</float>
+      </struct>
+    </list>
+    <list label="StoreList">
+      <struct id="11">
+        <float label="XPosition">1.216712</float>
+        <float label="YPosition">2.551237</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">0.831468</float>
+        <float label="YOrientation">0.555573</float>
+        <resref label="ResRef">k_ptat_yukastore</resref>
+      </struct>
+    </list>
+    <list label="TriggerList"/>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">3</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">tat17aa_tat17ac</resref>
+        <exostring label="Tag">tat17aa_tat17ac</exostring>
+        <locstring label="LocalizedName" strref="27772"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">6.810009</float>
+        <float label="YPosition">3.621833</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">-1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_mapnote001</resref>
+        <exostring label="Tag">SW_MAPNOTE001</exostring>
+        <locstring label="LocalizedName" strref="349"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">1</byte>
+        <locstring label="MapNote" strref="33461"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">6.876740</float>
+        <float label="YPosition">4.333421</float>
+        <float label="ZPosition">1.386329</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">wp_transabort</resref>
+        <exostring label="Tag">wp_transabort</exostring>
+        <locstring label="LocalizedName" strref="42802"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">0</byte>
+        <float label="XPosition">6.544126</float>
+        <float label="YPosition">3.548202</float>
+        <float label="ZPosition">1.386330</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">plc_kiosk2</resref>
+        <float label="X">-6.147916</float>
+        <float label="Y">3.722497</float>
+        <float label="Z">1.386330</float>
+        <float label="Bearing">1.570794</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">tat17ac_cont_01</resref>
+        <float label="X">4.551841</float>
+        <float label="Y">8.365376</float>
+        <float label="Z">1.386330</float>
+        <float label="Bearing">-0.589048</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">tat17ac_cont_02</resref>
+        <float label="X">-6.485970</float>
+        <float label="Y">1.146820</float>
+        <float label="Z">1.386330</float>
+        <float label="Bearing">1.570794</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_brokndrd</resref>
+        <float label="X">-6.182715</float>
+        <float label="Y">-3.068543</float>
+        <float label="Z">2.088963</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_partpile</resref>
+        <float label="X">-6.223952</float>
+        <float label="Y">-0.993370</float>
+        <float label="Z">2.088963</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_shpjnklg</resref>
+        <float label="X">-0.174223</float>
+        <float label="Y">-1.791783</float>
+        <float label="Z">2.088963</float>
+        <float label="Bearing">0.785397</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_brokndrd</resref>
+        <float label="X">6.191689</float>
+        <float label="Y">-2.569028</float>
+        <float label="Z">2.088963</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">plc_equppack</resref>
+        <float label="X">6.373566</float>
+        <float label="Y">-0.669459</float>
+        <float label="Z">2.088963</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+      <struct id="9">
+        <resref label="TemplateResRef">k_trans_abort</resref>
+        <float label="X">10.390158</float>
+        <float label="Y">3.656542</float>
+        <float label="Z">1.386311</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>

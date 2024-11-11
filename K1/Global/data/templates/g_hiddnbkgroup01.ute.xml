@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="UTE">
+  <struct id="4294967295">
+    <exostring label="Tag">G_HIDDNBKGROUP01</exostring>
+    <locstring label="LocalizedName" strref="6261"/>
+    <resref label="TemplateResRef">g_hiddnbkgroup01</resref>
+    <byte label="Active">1</byte>
+    <sint32 label="Difficulty">2</sint32>
+    <sint32 label="DifficultyIndex">2</sint32>
+    <uint32 label="Faction">1</uint32>
+    <sint32 label="MaxCreatures">6</sint32>
+    <byte label="PlayerOnly">0</byte>
+    <sint32 label="RecCreatures">4</sint32>
+    <byte label="Reset">0</byte>
+    <sint32 label="ResetTime">60</sint32>
+    <sint32 label="Respawns">0</sint32>
+    <sint32 label="SpawnOption">1</sint32>
+    <resref label="OnEntered"></resref>
+    <resref label="OnExit"></resref>
+    <resref label="OnExhausted"></resref>
+    <resref label="OnHeartbeat"></resref>
+    <resref label="OnUserDefined"></resref>
+    <list label="CreatureList">
+      <struct id="0">
+        <sint32 label="Appearance">27</sint32>
+        <float label="CR">1.000000</float>
+        <resref label="ResRef">g_hidbekgang01</resref>
+        <byte label="SingleSpawn">0</byte>
+      </struct>
+      <struct id="0">
+        <sint32 label="Appearance">27</sint32>
+        <float label="CR">2.000000</float>
+        <resref label="ResRef">g_hidbekgang02</resref>
+        <byte label="SingleSpawn">1</byte>
+      </struct>
+    </list>
+    <byte label="PaletteID">5</byte>
+    <exostring label="Comment"></exostring>
+  </struct>
+</gff3>

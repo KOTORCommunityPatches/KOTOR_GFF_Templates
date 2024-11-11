@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">40</sint32>
+      <sint32 label="AmbientSndNight">40</sint32>
+      <sint32 label="AmbientSndDayVol">41</sint32>
+      <sint32 label="AmbientSndNitVol">43</sint32>
+      <sint32 label="EnvAudio">0</sint32>
+      <sint32 label="MusicBattle">0</sint32>
+      <sint32 label="MusicDay">0</sint32>
+      <sint32 label="MusicNight">0</sint32>
+      <sint32 label="MusicDelay">0</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">120.556061</float>
+        <float label="YPosition">72.955917</float>
+        <float label="ZPosition">13.750584</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+        <resref label="TemplateResRef">g_sithcomm004</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">120.634354</float>
+        <float label="YPosition">74.949730</float>
+        <float label="ZPosition">13.750584</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+        <resref label="TemplateResRef">g_sithcomm005</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">118.199409</float>
+        <float label="YPosition">72.714424</float>
+        <float label="ZPosition">13.750583</float>
+        <float label="XOrientation">0.995185</float>
+        <float label="YOrientation">0.098018</float>
+        <resref label="TemplateResRef">g_sithcomm003</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">118.468422</float>
+        <float label="YPosition">74.975327</float>
+        <float label="ZPosition">13.750584</float>
+        <float label="XOrientation">0.803206</float>
+        <float label="YOrientation">0.595702</float>
+        <resref label="TemplateResRef">g_sithcomm006</resref>
+      </struct>
+    </list>
+    <list label="Door List"/>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList"/>
+    <list label="StoreList"/>
+    <list label="TriggerList"/>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint002</resref>
+        <exostring label="Tag">WP01</exostring>
+        <locstring label="LocalizedName" strref="37907"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">126.505493</float>
+        <float label="YPosition">73.016350</float>
+        <float label="ZPosition">13.750584</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint003</resref>
+        <exostring label="Tag">WP02</exostring>
+        <locstring label="LocalizedName" strref="37909"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">126.531555</float>
+        <float label="YPosition">74.970100</float>
+        <float label="ZPosition">13.750586</float>
+        <float label="XOrientation">1.000000</float>
+        <float label="YOrientation">0.000002</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">invisible001</resref>
+        <float label="X">79.392288</float>
+        <float label="Y">71.035919</float>
+        <float label="Z">13.750969</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>

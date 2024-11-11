@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gff3 type="GIT">
+  <struct id="4294967295">
+    <byte label="UseTemplates">1</byte>
+    <struct label="AreaProperties" id="14">
+      <sint32 label="AmbientSndDay">29</sint32>
+      <sint32 label="AmbientSndNight">29</sint32>
+      <sint32 label="AmbientSndDayVol">127</sint32>
+      <sint32 label="AmbientSndNitVol">127</sint32>
+      <sint32 label="EnvAudio">2</sint32>
+      <sint32 label="MusicBattle">0</sint32>
+      <sint32 label="MusicDay">25</sint32>
+      <sint32 label="MusicNight">25</sint32>
+      <sint32 label="MusicDelay">5000</sint32>
+    </struct>
+    <list label="Creature List">
+      <struct id="4">
+        <float label="XPosition">49.730255</float>
+        <float label="YPosition">44.269974</float>
+        <float label="ZPosition">1.800000</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_yoda002</resref>
+      </struct>
+      <struct id="4">
+        <float label="XPosition">50.271332</float>
+        <float label="YPosition">44.200058</float>
+        <float label="ZPosition">1.800184</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+        <resref label="TemplateResRef">n_dodonna001</resref>
+      </struct>
+    </list>
+    <list label="Door List"/>
+    <list label="Encounter List"/>
+    <list label="List"/>
+    <list label="SoundList"/>
+    <list label="StoreList"/>
+    <list label="TriggerList"/>
+    <list label="WaypointList">
+      <struct id="5">
+        <byte label="Appearance">1</byte>
+        <exostring label="LinkedTo"></exostring>
+        <resref label="TemplateResRef">sw_waypoint001</resref>
+        <exostring label="Tag">WP01</exostring>
+        <locstring label="LocalizedName" strref="37907"/>
+        <locstring label="Description" strref="4294967295"/>
+        <byte label="HasMapNote">0</byte>
+        <locstring label="MapNote" strref="4294967295"/>
+        <byte label="MapNoteEnabled">1</byte>
+        <float label="XPosition">44.720955</float>
+        <float label="YPosition">43.024220</float>
+        <float label="ZPosition">1.800003</float>
+        <float label="XOrientation">0.000000</float>
+        <float label="YOrientation">1.000000</float>
+      </struct>
+    </list>
+    <list label="Placeable List">
+      <struct id="9">
+        <resref label="TemplateResRef">invisible001</resref>
+        <float label="X">66.796509</float>
+        <float label="Y">48.382668</float>
+        <float label="Z">1.929004</float>
+        <float label="Bearing">-0.000000</float>
+      </struct>
+    </list>
+    <list label="CameraList"/>
+  </struct>
+</gff3>
